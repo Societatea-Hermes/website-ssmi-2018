@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head ng-app="ssmi">
+<html lang="en" ng-app="ssmi">
+   <head>
       <!-- Metas -->
       <meta charset="utf-8">
       <title>EVENTS - MULTIPURPOSE CONFERENCE HTML TEMPLATE</title>
@@ -16,7 +16,7 @@
       <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
    </head>
-   <body>
+   <body ng-controller="CoreController as vm">
       <!-- Preloader -->
       <div class="loader">
          <!-- Preloader inner -->
@@ -454,7 +454,7 @@
             </div>
             <!--End container-->
             <!--Container-->
-            <div class="container" ng-controller="CoreController as vm">
+            <div class="container">
                <!--Row-->
                <div class="row vertical-align tickets">
                   <div class="col-sm-12 ">
@@ -466,7 +466,7 @@
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finala la locatie</li>
-                                 <li><a class="but mt-30" ng-click="vm.showModal()"> Inscrie-ti echipa</a></li>
+                                 <li><a class="but mt-30" ng-click="vm.showModal(1)"> Inscrie-ti echipa</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -479,7 +479,7 @@
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finale la locatie</li>
-                                 <li><a href="#" class="but mt-30"> Inscrie-ti echipa</a></li>
+                                 <li><a class="but mt-30" ng-click="vm.showModal(2)"> Inscrie-ti echipa</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -492,7 +492,7 @@
                                  <li>Jocurile se desfasoara la locatie</li>
                                  <li>&nbsp;</li>
                                  <li>&nbsp;</li>
-                                 <li><a href="#" class="but mt-30"> Inscrie-te</a></li>
+                                 <li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>
                               </ul>
                            </li>
                         </ul>
@@ -722,25 +722,59 @@ Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: contact@societatea-h
                  * Main module
                  */
                 angular
-                    .module('ssmi', [
-                        
-                    ])
+                    .module('ssmi',[])
                     .controller('CoreController', CoreController)
                     .run(runApp);
 
 
                 /** @ngInject */
-                function CoreController($scope)
+                function CoreController($http)
                 {
                     // Data
                     var vm = this;
 
-                    vm.showModal = function() {
-                        alert('a');
+                    vm.team = {};
+
+                    vm.showModal = function(type) {
+                        $('#signupModal').modal('show');
+                        vm.team = {};
+                        vm.team.type = type;
+                        vm.team.participants = [];
+                        vm.addTeamMember();
+                        vm.team.participants[0].is_lead = 1;
+                    }
+
+                    vm.addTeamMember = function() {
+                        if((vm.team.type == 3 && vm.team.participants.length == 1) || vm.team.participants.length == 6) {
+                            alert('Nu mai puteti adauga alti membrii!');
+                            return;
+                        }
+                        vm.team.participants.push({
+                            id: vm.team.participants.length+1,
+                            full_name: '',
+                            phone: '',
+                            email: '',
+                            is_lead: 0
+                        });
+                    }
+
+                    vm.signup = function() {
+                        $http({
+                            method: 'POST',
+                            url: '/api/team',
+                            data: vm.team
+                        })
+                        .then(function successCallback(response) {
+                            if(response.data.success == 1) {
+                                alert('Inscrierea a fost efectuata cu succes!');
+                                $('#signupModal').modal('hide');
+                                vm.team = {};
+                            } else {
+                                alert(response.data.message);
+                            }
+                        });
                     }
                     //////////
-                    alert('aa');
-                    
                 }
 
                 function runApp($rootScope, $http) {
@@ -756,20 +790,44 @@ Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: contact@societatea-h
             
         </script>
 
-    <div class="modal fade" ng-controller="CoreController" id="signupModal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" >
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" >
         <div class="modal-dialog " role="document">
             <div class="modal-content">
-                <form name="addAnswerGroupForm">
+                <form name="addTeamForm">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Inscrie-te</h4>
                     </div>
                     <div class="modal-body">
-                        
+                        <div class="form-group">
+                            <label>Nume echipa</label>
+                            <input type="text" name="name" ng-model="vm.team.name" required/>
+                        </div>
+                        <div ng-repeat="participant in vm.team.participants">
+                            <hr />
+                            <div ng-if="vm.team.type != 3">
+                                <h2 ng-if="participant.id != 1 && participant.id < 6" class="text-center">Membru @{{participant.id}}</h2>
+                                <h2 ng-if="participant.id == 1" class="text-center">Team leader</h2>
+                                <h2 ng-if="participant.id == 6" class="text-center">Rezerva</h2>
+                            </div>
+                            <div class="form-group">
+                                <label>Nume complet</label>
+                                <input type="text" class="form-control" name="name" ng-model="participant.full_name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label>Numar de telefon</label>
+                                <input type="text" class="form-control" name="name" ng-model="participant.phone" required/>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="text" class="form-control" name="name" ng-model="participant.email" required/>
+                            </div>
+                        </div>
+                        <button class="btn btn-success" ng-click="vm.addTeamMember()" ng-if="vm.team.type != 3 && vm.team.participants.length < 6">Adauga membru al echipei</button>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal" ng-disabled="opRunning">Inchide</button>
-                        <button type="button" class="btn btn-success" ng-disabled="addAnswerGroupForm.$pristine || addAnswerGroupForm.$invalid || opRunning" ng-click="CoreController.showModal()">
+                        <button type="button" class="btn btn-success" ng-disabled="addTeamForm.$pristine || addTeamForm.$invalid || opRunning || (vm.team.type != 3 && vm.team.participants.length < 5)" ng-click="vm.signup()">
                             <span ng-if="!opRunning">Trimite</span>
                             <span ng-if="opRunning"><img class="loadImgBtn" src="assets/img/loading.gif"></span>
                         </button>
