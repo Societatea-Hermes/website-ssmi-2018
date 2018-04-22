@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('/team', 'TeamController@saveTeam');
+Route::get('/teams', 'TeamController@getTeams');
+Route::get('/team/members/{team_id}', 'TeamController@getTeamMembers');
+
