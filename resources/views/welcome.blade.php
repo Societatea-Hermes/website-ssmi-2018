@@ -3,7 +3,7 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <title>EVENTS - MULTIPURPOSE CONFERENCE HTML TEMPLATE</title>
+      <title>SSMI - Saptamanile Studentilor de la Matematica si Informatica</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Css -->
@@ -37,7 +37,7 @@
                <ul class="slides">
                   <li>
                      <div class="background-img">
-                        <img src="img/ssmi.png" alt="">
+                        <img src="img/Site.png" alt="">
                      </div>
                   </li>
                </ul>
@@ -51,7 +51,7 @@
                   <div class="row">
                      <div class="col-md-2">
                         <a class="scroll logo" href="#wrapper">
-                           <h2>events</h2>
+                           <h2>SSMI</h2>
                         </a>
                      </div>
                      <div class="col-md-10 text-right">
@@ -62,15 +62,15 @@
                               </a>
                            </div>
                            <ul>
-                              <li><a class="scroll" href="#wrapper">Home</a></li>
-                              <li><a class="scroll" href="#about">About</a></li>
-                              <li><a class="scroll" href="#speakers">Speakers</a></li>
+                              <li><a class="scroll" href="#wrapper">Acasa</a></li>
+                              <li><a class="scroll" href="#about">Despre</a></li>
+                              <!-- <li><a class="scroll" href="#speakers">Speakers</a></li>
                               <li><a class="scroll" href="#topics">Topics</a></li>
-                              <li><a class="scroll" href="#schedule">Schedule</a></li>
-                              <li><a class="scroll" href="#tickets">Tickets</a></li>
-                              <li><a class="scroll" href="#location">Location</a></li>
-                              <li><a class="scroll" href="#faq">FAQ</a></li>
-                              <li><a class="scroll" href="#gallery">Gallery</a></li>
+                              <li><a class="scroll" href="#schedule">Schedule</a></li> -->
+                              <li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>
+                              <!-- <li><a class="scroll" href="#location">Location</a></li> -->
+                              <!-- <li><a class="scroll" href="#faq">FAQ</a></li> -->
+                              <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
                            </ul>
                         </nav>
                      </div>
@@ -251,12 +251,12 @@
             <!--End container-->
          </section>
          <!--End about section-->
-         
+         {{--
          <!--Schedule section-->
          <section id="schedule" class="schedule pt-120 pb-120">
             <!--Container-->
             <div class="container">
-               <!--Row-->
+               <!--Row--> 
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Conference Schedule</h1>
@@ -437,7 +437,7 @@
             <!--End container-->
          </section>
          <!--End schedule section-->
-         
+         --}}
          <!--Tickest section-->
          <section id="tickets" class="tickets pt-120 pb-120">
             <!--Container-->
@@ -447,7 +447,7 @@
                   <div class="col-sm-8 col-sm-offset-2 mb-130">
                      <h1 class="title text-center">Hermes Gaming Weekend</h1>
                      <p class="title-lead mt-10">Hermes Gaming Weekend, evenimentul principal din cadrul SSMI Saptamana Studentilor de la Matematica si Informatica reprezinta o competitie destinata studentilor de la mate-info si nu numai.
-                    <br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!</p>
+                    <br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!<br /><br />Calificarile pentru Hermes Gaming Weekend se vor juca online, urmand ca sfeturile de finala, semifinalele si finalele sa se joace la locatie!</p>
                   </div>
                </div>
                <!--End row-->
@@ -504,7 +504,7 @@
             <!--End container-->
          </section>
          <!--End tickets section-->
-         <!--Sponsor section-->
+         {{-- <!--Sponsor section-->
          <section class="sponser pt-100 pb-100">
             <!--Container-->
             <div class="container">
@@ -522,35 +522,35 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-12  col-sm-push-2 text-center">
-                     <div class="col-md-2 col-sm-2 ">
+                     <div class="col-md-3 col-sm-3 ">
                         <div class="">
-                           <img src="img/logo/3.png" alt="">
+                           <img src="img/logo/accenture.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-2 col-sm-2">
+                     <div class="col-md-3 col-sm-3">
                         <div class="">
-                           <img src="img/logo/1.png" alt="">
+                           <img src="img/logo/accesa.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-2 col-sm-2">
+                     <div class="col-md-3 col-sm-3">
                         <div class="">
-                           <img src="img/logo/4.png" alt="">
+                           <img src="img/logo/yonder.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-2 col-sm-2">
+                     <!-- <div class="col-md-2 col-sm-2">
                         <div class="">
                            <img src="img/logo/2.png" alt="">
                         </div>
-                     </div>
+                     </div> -->
                   </div>
                </div>
                <!--End row-->
             </div>
             <!--End container-->
          </section>
-         <!--End sponser section-->
+         <!--End sponser section--> --}}
          
-         <!--Faq section-->
+         {{-- <!--Gallery section-->
          <section id="gallery" class="gallery pt-120">
             <!--Container-->
             <div class="container">
@@ -658,7 +658,7 @@
             </div>
             <!--End container-->
          </section>
-         <!--End gallery section-->
+         <!--End gallery section--> --}}
          <footer class="pt-120  bg-dark">
            
             <section class="top-footer pb-120">
