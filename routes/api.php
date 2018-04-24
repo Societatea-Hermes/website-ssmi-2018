@@ -13,7 +13,8 @@ use Illuminate\Http\Request;
 |
 */
 
+
 Route::post('/team', 'TeamController@saveTeam');
 Route::get('/teams', 'TeamController@getTeams');
 Route::get('/team/members/{team_id}', 'TeamController@getTeamMembers');
-
+Route::get('/backoffice','LogInController@login');

@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/backoffice',function(){
+	return view('login');
+});
+Route::post('/backoffice',"LogInController@login");
+
