@@ -6,6 +6,8 @@
       <title>SSMI - Saptamanile Studentilor de la Matematica si Informatica</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="SSMI - Saptamanile Studentilor de la Matematica si Informatica" />
+      <meta property="og:image" content="https://ssmi.societatea-hermes.ro/img/Site.png" />
       <!-- Css -->
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
       <link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
