@@ -464,7 +464,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="price"><span class="cur">RON / echipa</span>100</span><span class="block-type">Counter Strike : Global Offensive</span></li>
+                                 <li class="block-price"><span class="block-type">Counter Strike : Global Offensive</span></li>
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finala la locatie</li>
@@ -477,7 +477,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="price"><span class="cur">RON / echipa</span>100</span><span class="block-type">League of Legends</span></li>
+                                 <li class="block-price"><span class="block-type">League of Legends</span></li>
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finale la locatie</li>
@@ -490,7 +490,7 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="price"><span class="cur">RON</span>10</span><span class="block-type">Hearthstone</span></li>
+                                 <li class="block-price"><span class="block-type">Hearthstone</span></li>
                                  <li>Jocurile se desfasoara la locatie</li>
                                  <li>&nbsp;</li>
                                  <li>&nbsp;</li>
