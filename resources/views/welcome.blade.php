@@ -71,7 +71,7 @@
                               <li><a class="scroll" href="#schedule">Schedule</a></li> -->
                               <li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>
                               <!-- <li><a class="scroll" href="#location">Location</a></li> -->
-                              <!-- <li><a class="scroll" href="#faq">FAQ</a></li> -->
+                              <li><a class="scroll" href="#faq">FAQ</a></li>
                               <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
                            </ul>
                         </nav>
@@ -448,8 +448,9 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-130">
                      <h1 class="title text-center">Hermes Gaming Weekend</h1>
+                     <br /><h1 class="sub-title-2 text-center">REGULAMENTUL GENERAL al concursului il gasiti <a href="https://www.esportscluj.com/fest-ruls">aici</a>!</h1>
                      <p class="title-lead mt-10">Hermes Gaming Weekend, evenimentul principal din cadrul SSMI Saptamana Studentilor de la Matematica si Informatica reprezinta o competitie destinata studentilor de la mate-info si nu numai.
-                    <br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!<br /><br />Calificarile pentru Hermes Gaming Weekend se vor juca online, urmand ca sfeturile de finala, semifinalele si finalele sa se joace la locatie!</p>
+                    <br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!<br /><br />Calificarile pentru Hermes Gaming Weekend se vor juca online, urmand ca sfeturile de finala, semifinalele si finalele sa se joace la locatie!</p><br /><p>Cei care se inscriu la League of Legends trebuie sa se inscrie si <a class="gradient-text" target="_blank"  href="http://events.eune.leagueoflegends.com/en/events/319235">aici</a></p><h1 class="sub-title-2 text-center">INSCRIERILE SE INCHID IN DATA DE 07 MAI !</h2>
                   </div>
                </div>
                <!--End row-->
@@ -464,7 +465,8 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="block-type">Counter Strike : Global Offensive</span></li>
+                                 <h1 class="sub-title-2">Counter Strike : Global Offensive</h1><br />
+                                 <!-- <li class="block-price"><span class="block-type">Counter Strike : Global Offensive</span></li> -->
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finala la locatie</li>
@@ -477,7 +479,8 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="block-type">League of Legends</span></li>
+                                 <h1 class="sub-title-2">League of Legends</h1><br />
+                                 <!-- <li class="block-price"><span class="block-type">League of Legends</span></li> -->
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finale la locatie</li>
@@ -490,9 +493,10 @@
                         <ul class="block-tickets">
                            <li>
                               <ul class="block-ticket ">
-                                 <li class="block-price"><span class="block-type">Hearthstone</span></li>
-                                 <li>Jocurile se desfasoara la locatie</li>
-                                 <li>&nbsp;</li>
+                                 <h1 class="sub-title-2">Hearthstone</h1><br />
+                                 <!-- <li class="block-price"><span class="block-type">Hearthstone</span></li> -->
+                                 <li>Toate jocurile se desfasoara la locatie</li>
+                                 <li>Doar deck-urile standard sunt permise</li>
                                  <li>&nbsp;</li>
                                  <li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>
                               </ul>
@@ -502,10 +506,46 @@
                   </div>
                </div>
                <!--End row-->
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 text-center ">
+                     <h1 class="title">Intrebari frecvente</h1>
+                     <p class="title-lead mt-10 mb-20">Cateva intrebari frecvente in legatura cu HGW.</p>
+                  </div>
+               </div>
+               <!--End row-->
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2  ">
+                     <div class="block-faq mb-50">
+                        <h4 class="mb-10">Care este locatia evenimentului ?</h4>
+                        <p>Hermes Gaming Weekend va avea loc la Cantina Studenteasca Hasdeu, Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca, in salile C4, C5 si H2(<a class="gradient-text" href="https://goo.gl/maps/WuszQoViwxK2" target="_blank">Google maps</a>)</p>
+                     </div>
+                     <div class="block-faq mb-50">
+                        <h4 class="mb-10">Cum se vor juca meciurile ?</h4>
+                        <p>Preliminariile si sferturile se vor juca in sistem Bo1, iar semifinala si finala se vor juca in sistem Bo3</p>
+                     </div>
+                     <!-- <div class="block-faq mb-50">
+                        <h4 class="mb-10">qq ?</h4>
+                        <p>Ansuer</p>
+                     </div> -->
+                  </div>
+               </div>
+               <!--End row-->
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
+                     <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne pe una din urmatoarele adrese:</h2>
+                     <p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>
+                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
+                  </div>
+               </div>
+               <!--End row-->
             </div>
             <!--End container-->
          </section>
          <!--End tickets section-->
+
+         
          {{-- <!--Sponsor section-->
          <section class="sponser pt-100 pb-100">
             <!--Container-->
@@ -661,8 +701,8 @@
             <!--End container-->
          </section>
          <!--End gallery section--> --}}
+
          <footer class="pt-120  bg-dark">
-           
             <section class="top-footer pb-120">
                <!--Container-->
                <div class="container ">
@@ -670,7 +710,7 @@
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
                         <p class="">Societatea Hermes<br />Cantina Hasdeu, Complex Studentesc Hasdeu, 
-Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: contact@societatea-hermes.ro</p>
+Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: <a class="gradient-text" target="_blank" href="mailto:contact@societatea-hermes.ro">contact@societatea-hermes.ro</a></p>
                         <ul class="block-social mt-20">
                            <li><a href="https://www.facebook.com/SSMIUBB" target="_blank"><i class="icon-facebook"></i></a></li>
                         </ul>
@@ -712,6 +752,7 @@ Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: contact@societatea-h
       <script src="js/script.js" type="text/javascript"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCQJf_OY-q2TPJmUNcvU6TkeKPct5PGKI&callback=initializeMap"></script>
       <!-- Google analytics -->
       <!-- End google analytics -->
 

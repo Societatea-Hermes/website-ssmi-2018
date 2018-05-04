@@ -145,4 +145,16 @@ class TeamController extends Controller
 
     	return $this->returnJsonResponse($toReturn);
     }
+
+    public function getTypeCount(Team $team){
+        
+
+        $toReturn = array(
+            'cs'    =>  $team->all()->where('type', '1')->count(),
+            'lol'    =>  $team->all()->where('type', '2')->count(),
+            'hs'    =>  $team->all()->where('type', '3')->count()
+        );
+
+        return $this->returnJsonResponse($toReturn);
+    }
 }
