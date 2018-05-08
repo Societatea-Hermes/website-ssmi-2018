@@ -484,7 +484,7 @@
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finale la locatie</li>
-                                 <li><a class="but mt-30" ng-click="vm.showModal(2)"> Inscrie-ti echipa</a></li>
+                                 <!-- <li><a class="but mt-30" ng-click="vm.showModal(2)"> Inscrie-ti echipa</a></li> -->
                               </ul>
                            </li>
                         </ul>
