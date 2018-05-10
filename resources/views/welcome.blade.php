@@ -470,7 +470,7 @@
                                  <li>5 - 6 Membrii / echipa</li>
                                  <li>Preliminarii online</li>
                                  <li>Sferturi, semifinale si finala la locatie</li>
-                                 <li><a class="but mt-30" ng-click="vm.showModal(1)"> Inscrie-ti echipa</a></li>
+                                 <!--<li><a class="but mt-30" ng-click="vm.showModal(1)"> Inscrie-ti echipa</a></li>-->
                               </ul>
                            </li>
                         </ul>
@@ -498,7 +498,7 @@
                                  <li>Toate jocurile se desfasoara la locatie</li>
                                  <li>Doar deck-urile standard sunt permise</li>
                                  <li>&nbsp;</li>
-                                 <li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>
+                                 <!--<li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>-->
                               </ul>
                            </li>
                         </ul>
