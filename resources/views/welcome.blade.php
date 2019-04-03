@@ -441,7 +441,7 @@
          <!--End schedule section-->
          --}}
          <!--Tickest section-->
-         <section id="tickets" class="tickets pt-120 pb-120">
+         <section id="faq" class="tickets pt-120 pb-120">
             <!--Container-->
             <div class="container">
                <!--Row-->
