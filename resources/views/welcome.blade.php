@@ -69,7 +69,7 @@
                               <!-- <li><a class="scroll" href="#speakers">Speakers</a></li>
                               <li><a class="scroll" href="#topics">Topics</a></li>
                               <li><a class="scroll" href="#schedule">Schedule</a></li> -->
-                              <li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>
+                              {{--<li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>--}}
                               <!-- <li><a class="scroll" href="#location">Location</a></li> -->
                               <li><a class="scroll" href="#faq">FAQ</a></li>
                               <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
@@ -168,7 +168,7 @@
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <span>07 - 18 Mai 2018</span>
+                           <span>15 - 21 Aprilie 2019</span>
                         </p>
                      </div>
                   </div>
@@ -446,12 +446,12 @@
             <div class="container">
                <!--Row-->
                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2 mb-130">
-                     <h1 class="title text-center">Hermes Gaming Weekend</h1>
-                     <br /><h1 class="sub-title-2 text-center">REGULAMENTUL GENERAL al concursului il gasiti <a href="https://www.esportscluj.com/fest-ruls">aici</a>!</h1>
-                     <p class="title-lead mt-10">Hermes Gaming Weekend, evenimentul principal din cadrul SSMI Saptamana Studentilor de la Matematica si Informatica reprezinta o competitie destinata studentilor de la mate-info si nu numai.
-                    <br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!<br /><br />Calificarile pentru Hermes Gaming Weekend se vor juca online, urmand ca sfeturile de finala, semifinalele si finalele sa se joace la locatie!</p><br /><p>Cei care se inscriu la League of Legends trebuie sa se inscrie si <a class="gradient-text" target="_blank"  href="http://events.eune.leagueoflegends.com/en/events/319235">aici</a></p><h1 class="sub-title-2 text-center">INSCRIERILE SE INCHID IN DATA DE 07 MAI !</h2>
-                  </div>
+                  {{--<div class="col-sm-8 col-sm-offset-2 mb-130">--}}
+                     {{--<h1 class="title text-center">Hermes Gaming Weekend</h1>--}}
+                     {{--<br /><h1 class="sub-title-2 text-center">REGULAMENTUL GENERAL al concursului il gasiti <a href="https://www.esportscluj.com/fest-ruls">aici</a>!</h1>--}}
+                     {{--<p class="title-lead mt-10">Hermes Gaming Weekend, evenimentul principal din cadrul SSMI Saptamana Studentilor de la Matematica si Informatica reprezinta o competitie destinata studentilor de la mate-info si nu numai.--}}
+                    {{--<br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!<br /><br />Calificarile pentru Hermes Gaming Weekend se vor juca online, urmand ca sfeturile de finala, semifinalele si finalele sa se joace la locatie!</p><br /><p>Cei care se inscriu la League of Legends trebuie sa se inscrie si <a class="gradient-text" target="_blank"  href="http://events.eune.leagueoflegends.com/en/events/319235">aici</a></p><h1 class="sub-title-2 text-center">INSCRIERILE SE INCHID IN DATA DE 07 MAI !</h2>--}}
+                  {{--</div>--}}
                </div>
                <!--End row-->
             </div>
@@ -459,52 +459,52 @@
             <!--Container-->
             <div class="container">
                <!--Row-->
-               <div class="row vertical-align tickets">
-                  <div class="col-sm-12 ">
-                     <div class="col-sm-4">
-                        <ul class="block-tickets">
-                           <li>
-                              <ul class="block-ticket ">
-                                 <h1 class="sub-title-2">Counter Strike : Global Offensive</h1><br />
-                                 <!-- <li class="block-price"><span class="block-type">Counter Strike : Global Offensive</span></li> -->
-                                 <li>5 - 6 Membrii / echipa</li>
-                                 <li>Preliminarii online</li>
-                                 <li>Sferturi, semifinale si finala la locatie</li>
-                                 <!--<li><a class="but mt-30" ng-click="vm.showModal(1)"> Inscrie-ti echipa</a></li>-->
-                              </ul>
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="col-sm-4">
-                        <ul class="block-tickets">
-                           <li>
-                              <ul class="block-ticket ">
-                                 <h1 class="sub-title-2">League of Legends</h1><br />
-                                 <!-- <li class="block-price"><span class="block-type">League of Legends</span></li> -->
-                                 <li>5 - 6 Membrii / echipa</li>
-                                 <li>Preliminarii online</li>
-                                 <li>Sferturi, semifinale si finale la locatie</li>
-                                 <!-- <li><a class="but mt-30" ng-click="vm.showModal(2)"> Inscrie-ti echipa</a></li> -->
-                              </ul>
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="col-sm-4">
-                        <ul class="block-tickets">
-                           <li>
-                              <ul class="block-ticket ">
-                                 <h1 class="sub-title-2">Hearthstone</h1><br />
-                                 <!-- <li class="block-price"><span class="block-type">Hearthstone</span></li> -->
-                                 <li>Toate jocurile se desfasoara la locatie</li>
-                                 <li>Doar deck-urile standard sunt permise</li>
-                                 <li>&nbsp;</li>
-                                 <!--<li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>-->
-                              </ul>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+               {{--<div class="row vertical-align tickets">--}}
+                  {{--<div class="col-sm-12 ">--}}
+                     {{--<div class="col-sm-4">--}}
+                        {{--<ul class="block-tickets">--}}
+                           {{--<li>--}}
+                              {{--<ul class="block-ticket ">--}}
+                                 {{--<h1 class="sub-title-2">Counter Strike : Global Offensive</h1><br />--}}
+                                 {{--<!-- <li class="block-price"><span class="block-type">Counter Strike : Global Offensive</span></li> -->--}}
+                                 {{--<li>5 - 6 Membrii / echipa</li>--}}
+                                 {{--<li>Preliminarii online</li>--}}
+                                 {{--<li>Sferturi, semifinale si finala la locatie</li>--}}
+                                 {{--<!--<li><a class="but mt-30" ng-click="vm.showModal(1)"> Inscrie-ti echipa</a></li>-->--}}
+                              {{--</ul>--}}
+                           {{--</li>--}}
+                        {{--</ul>--}}
+                     {{--</div>--}}
+                     {{--<div class="col-sm-4">--}}
+                        {{--<ul class="block-tickets">--}}
+                           {{--<li>--}}
+                              {{--<ul class="block-ticket ">--}}
+                                 {{--<h1 class="sub-title-2">League of Legends</h1><br />--}}
+                                 {{--<!-- <li class="block-price"><span class="block-type">League of Legends</span></li> -->--}}
+                                 {{--<li>5 - 6 Membrii / echipa</li>--}}
+                                 {{--<li>Preliminarii online</li>--}}
+                                 {{--<li>Sferturi, semifinale si finale la locatie</li>--}}
+                                 {{--<!-- <li><a class="but mt-30" ng-click="vm.showModal(2)"> Inscrie-ti echipa</a></li> -->--}}
+                              {{--</ul>--}}
+                           {{--</li>--}}
+                        {{--</ul>--}}
+                     {{--</div>--}}
+                     {{--<div class="col-sm-4">--}}
+                        {{--<ul class="block-tickets">--}}
+                           {{--<li>--}}
+                              {{--<ul class="block-ticket ">--}}
+                                 {{--<h1 class="sub-title-2">Hearthstone</h1><br />--}}
+                                 {{--<!-- <li class="block-price"><span class="block-type">Hearthstone</span></li> -->--}}
+                                 {{--<li>Toate jocurile se desfasoara la locatie</li>--}}
+                                 {{--<li>Doar deck-urile standard sunt permise</li>--}}
+                                 {{--<li>&nbsp;</li>--}}
+                                 {{--<!--<li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>-->--}}
+                              {{--</ul>--}}
+                           {{--</li>--}}
+                        {{--</ul>--}}
+                     {{--</div>--}}
+                  {{--</div>--}}
+               {{--</div>--}}
                <!--End row-->
                 <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 text-center ">
@@ -520,10 +520,10 @@
                         <h4 class="mb-10">Care este locatia evenimentului ?</h4>
                         <p>Hermes Gaming Weekend va avea loc la Cantina Studenteasca Hasdeu, Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca, in salile C4, C5 si H2(<a class="gradient-text" href="https://goo.gl/maps/WuszQoViwxK2" target="_blank">Google maps</a>)</p>
                      </div>
-                     <div class="block-faq mb-50">
-                        <h4 class="mb-10">Cum se vor juca meciurile ?</h4>
-                        <p>Preliminariile si sferturile se vor juca in sistem Bo1, iar semifinala si finala se vor juca in sistem Bo3</p>
-                     </div>
+                     {{--<div class="block-faq mb-50">--}}
+                        {{--<h4 class="mb-10">Cum se vor juca meciurile ?</h4>--}}
+                        {{--<p>Preliminariile si sferturile se vor juca in sistem Bo1, iar semifinala si finala se vor juca in sistem Bo3</p>--}}
+                     {{--</div>--}}
                      <!-- <div class="block-faq mb-50">
                         <h4 class="mb-10">qq ?</h4>
                         <p>Ansuer</p>
@@ -534,9 +534,9 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
-                     <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne pe una din urmatoarele adrese:</h2>
-                     <p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>
-                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
+                     <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne la adresa:</h2>
+                     {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
+                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi2019@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
                   </div>
                </div>
                <!--End row-->
