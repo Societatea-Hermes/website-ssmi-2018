@@ -536,7 +536,7 @@
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
-                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi2019@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
+                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi2019@societatea-hermes.ro">ssmi2019@societatea-hermes.ro</a></p>
                   </div>
                </div>
                <!--End row-->
