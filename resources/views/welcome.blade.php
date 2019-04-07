@@ -702,10 +702,23 @@
          </section>
          <!--End gallery section--> --}}
 
+
+
          <footer class="pt-120  bg-dark">
             <section class="top-footer pb-120">
                <!--Container-->
                <div class="container ">
+                   <div class="row" style="margin-bottom: 100px">
+                       <div class="col-sm-4">
+                           <a href="https://www.telenav.com/" ><img src="img/telenav.png" alt="Telenav"></a>
+                       </div>
+                       <div class="col-sm-4">
+                           <a href="https://www.accesa.eu/" ><img src="img/accesa.png" alt="Accesa"></a>
+                       </div>
+                       <div class="col-sm-4">
+                           <a href="http://www.arobs.ro/" ><img src="img/arobs.png" alt="Arobs"></a>
+                       </div>
+                   </div>
                   <div class="row">
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
