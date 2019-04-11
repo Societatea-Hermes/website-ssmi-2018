@@ -71,7 +71,8 @@
                               <li><a class="scroll" href="#schedule">Schedule</a></li> -->
                               {{--<li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>--}}
                               <!-- <li><a class="scroll" href="#location">Location</a></li> -->
-                              <li><a class="scroll" href="#faq">FAQ</a></li>
+{{--                              <li><a class="scroll" href="#faq">FAQ</a></li>--}}
+                              <li><a class="scroll" href="#contact">Contact</a></li>
                               <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
                            </ul>
                         </nav>
@@ -258,7 +259,7 @@
          <section id="schedule" class="schedule pt-120 pb-120">
             <!--Container-->
             <div class="container">
-               <!--Row--> 
+               <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">Conference Schedule</h1>
@@ -506,31 +507,31 @@
                   {{--</div>--}}
                {{--</div>--}}
                <!--End row-->
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2 text-center ">
-                     <h1 class="title">Intrebari frecvente</h1>
-                     <p class="title-lead mt-10 mb-20">Cateva intrebari frecvente in legatura cu HGW.</p>
-                  </div>
-               </div>
-               <!--End row-->
-               <!--Row-->
-               <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2  ">
-                     <div class="block-faq mb-50">
-                        <h4 class="mb-10">Care este locatia evenimentului ?</h4>
-                        <p>Hermes Gaming Weekend va avea loc la Cantina Studenteasca Hasdeu, Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca, in salile C4, C5 si H2(<a class="gradient-text" href="https://goo.gl/maps/WuszQoViwxK2" target="_blank">Google maps</a>)</p>
-                     </div>
-                     {{--<div class="block-faq mb-50">--}}
-                        {{--<h4 class="mb-10">Cum se vor juca meciurile ?</h4>--}}
-                        {{--<p>Preliminariile si sferturile se vor juca in sistem Bo1, iar semifinala si finala se vor juca in sistem Bo3</p>--}}
-                     {{--</div>--}}
-                     <!-- <div class="block-faq mb-50">
-                        <h4 class="mb-10">qq ?</h4>
-                        <p>Ansuer</p>
-                     </div> -->
-                  </div>
-               </div>
-               <!--End row-->
+{{--                <div class="row">--}}
+{{--                  <div class="col-sm-8 col-sm-offset-2 text-center ">--}}
+{{--                     <h1 class="title">Intrebari frecvente</h1>--}}
+{{--                     <p class="title-lead mt-10 mb-20">Cateva intrebari frecvente in legatura cu HGW.</p>--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--               <!--End row-->--}}
+{{--               <!--Row-->--}}
+{{--               <div class="row">--}}
+{{--                  <div class="col-sm-8 col-sm-offset-2  ">--}}
+{{--                     <div class="block-faq mb-50">--}}
+{{--                        <h4 class="mb-10">Care este locatia evenimentului ?</h4>--}}
+{{--                        <p>Hermes Gaming Weekend va avea loc la Cantina Studenteasca Hasdeu, Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca, in salile C4, C5 si H2(<a class="gradient-text" href="https://goo.gl/maps/WuszQoViwxK2" target="_blank">Google maps</a>)</p>--}}
+{{--                     </div>--}}
+{{--                     --}}{{--<div class="block-faq mb-50">--}}
+{{--                        --}}{{--<h4 class="mb-10">Cum se vor juca meciurile ?</h4>--}}
+{{--                        --}}{{--<p>Preliminariile si sferturile se vor juca in sistem Bo1, iar semifinala si finala se vor juca in sistem Bo3</p>--}}
+{{--                     --}}{{--</div>--}}
+{{--                     <!-- <div class="block-faq mb-50">--}}
+{{--                        <h4 class="mb-10">qq ?</h4>--}}
+{{--                        <p>Ansuer</p>--}}
+{{--                     </div> -->--}}
+{{--                  </div>--}}
+{{--               </div>--}}
+{{--               <!--End row-->--}}
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
@@ -545,7 +546,7 @@
          </section>
          <!--End tickets section-->
 
-         
+
          {{-- <!--Sponsor section-->
          <section class="sponser pt-100 pb-100">
             <!--Container-->
@@ -591,7 +592,7 @@
             <!--End container-->
          </section>
          <!--End sponser section--> --}}
-         
+
          {{-- <!--Gallery section-->
          <section id="gallery" class="gallery pt-120">
             <!--Container-->
@@ -704,8 +705,8 @@
 
 
 
-         <footer class="pt-120  bg-dark">
-            <section class="top-footer pb-120">
+         <footer class="pt-100  bg-dark">
+            <section id="contact" class="top-footer pb-100">
                <!--Container-->
                <div class="container ">
                    <div class="row" style="margin-bottom: 100px">
@@ -722,18 +723,18 @@
                   <div class="row">
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
-                        <p class="">Societatea Hermes<br />Cantina Hasdeu, Complex Studentesc Hasdeu, 
+                        <p class="">Societatea Hermes<br />Cantina Hasdeu, Complex Studentesc Hasdeu,
 Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: <a class="gradient-text" target="_blank" href="mailto:contact@societatea-hermes.ro">contact@societatea-hermes.ro</a></p>
                         <ul class="block-social mt-20">
                            <li><a href="https://www.facebook.com/SSMIUBB" target="_blank"><i class="icon-facebook"></i></a></li>
                         </ul>
                      </div>
                      <div class="col-sm-4">
-                        
+
                      </div>
                   </div>
                </div>
-               <!--End container-->     
+               <!--End container-->
             </section>
             <div class="bottom-footer bg-black pt-50 pb-50">
                <!--Container-->
@@ -749,12 +750,12 @@ Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: <a class="gradient-t
                      </div>
                   </div>
                </div>
-               <!--End container-->     
+               <!--End container-->
             </div>
          </footer>
       </div>
       <!-- End wrapper-->
-      <!--Javascript--> 
+      <!--Javascript-->
       <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
       <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
       <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
@@ -839,11 +840,11 @@ Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: <a class="gradient-t
                     @yield('otherConfig')
                 }
 
-         
-            
+
+
             })();
 
-            
+
         </script>
 
     <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" >
