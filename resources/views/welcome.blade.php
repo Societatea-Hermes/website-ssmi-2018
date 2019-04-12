@@ -3,7 +3,7 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <title>SSMI - Saptamanile Studentilor de la Matematica si Informatica</title>
+      <title>SSMI - Saptamana Studentilor de la Matematica si Informatica</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta property="og:title" content="SSMI - Saptamanile Studentilor de la Matematica si Informatica" />
@@ -39,7 +39,7 @@
                <ul class="slides">
                   <li>
                      <div class="background-img">
-                        <img src="img/Site.png" alt="">
+                        <img src="img/site2.png" alt="">
                      </div>
                   </li>
                </ul>
@@ -109,7 +109,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Saptamanile Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 8 mai dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
+                     <p class="title-lead mt-20">"Saptamanile Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 15 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
                   </div>
                </div>
                <!--End row-->
@@ -709,15 +709,18 @@
             <section id="contact" class="top-footer pb-100">
                <!--Container-->
                <div class="container ">
-                   <div class="row" style="margin-bottom: 100px">
-                       <div class="col-sm-4">
+                   <div class="row icons" style="margin-bottom: 100px">
+                       <div class="col-sm-3" >
                            <a href="https://www.telenav.com/" ><img src="img/telenav.png" alt="Telenav"></a>
                        </div>
-                       <div class="col-sm-4">
+                       <div class="col-sm-3">
                            <a href="https://www.accesa.eu/" ><img src="img/accesa.png" alt="Accesa"></a>
                        </div>
-                       <div class="col-sm-4">
+                       <div class="col-sm-3">
                            <a href="http://www.arobs.ro/" ><img src="img/arobs.png" alt="Arobs"></a>
+                       </div>
+                       <div class="col-sm-3">
+                           <a href="https://altom.com/" ><img src="img/altom.png" alt="Altom"></a>
                        </div>
                    </div>
                   <div class="row">
