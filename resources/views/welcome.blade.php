@@ -6,7 +6,7 @@
       <title>SSMI - Saptamana Studentilor de la Matematica si Informatica</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta property="og:title" content="SSMI - Saptamanile Studentilor de la Matematica si Informatica" />
+      <meta property="og:title" content="SSMI - Saptamana Studentilor de la Matematica si Informatica" />
       <meta property="og:image" content="https://ssmi.societatea-hermes.ro/img/Site.png" />
       <!-- Css -->
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
@@ -109,7 +109,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Saptamanile Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 15 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
+                     <p class="title-lead mt-20">"Saptamana Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 15 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
                   </div>
                </div>
                <!--End row-->
