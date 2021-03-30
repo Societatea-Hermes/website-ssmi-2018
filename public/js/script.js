@@ -90,7 +90,7 @@
 
     // Count down setup
 
-    $('.countdown').countdown('2019/04/15', function(event) {
+    $('.countdown').countdown('2021/04/12 12:00:00', function(event) {
         $(this).html(event.strftime('%D zile %H:%M:%S'));
     });
 
