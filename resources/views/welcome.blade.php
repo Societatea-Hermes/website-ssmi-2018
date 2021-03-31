@@ -39,7 +39,7 @@
                <ul class="slides">
                   <li>
                      <div class="background-img">
-                        <img src="img/site2.png" alt="">
+                        <img src="img/site3.jfif" alt="">
                      </div>
                   </li>
                </ul>
@@ -109,7 +109,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Saptamana Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 15 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
+                     <p class="title-lead mt-20">"Saptamana Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 12 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
                   </div>
                </div>
                <!--End row-->
@@ -125,14 +125,14 @@
                            width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
                            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.1983" y1="28.1187" x2="43.4067" y2="11.702">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_1_)" d="M38,30.5v-19c0-0.276-0.224-0.5-0.5-0.5S37,11.224,37,11.5v19c0,0.276-0.224,0.5-0.5,0.5h-31
                               C5.224,31,5,30.776,5,30.5v-19C5,11.224,4.776,11,4.5,11S4,11.224,4,11.5v19C4,31.327,4.673,32,5.5,32h31
                               C37.327,32,38,31.327,38,30.5z"/>
                            <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="4.7162" y1="26.9965" x2="42.9245" y2="10.5799">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_2_)" d="M8.5,23C8.224,23,8,23.224,8,23.5S8.224,24,8.5,24H10v3.5c0,0.276,0.224,0.5,0.5,0.5
                               s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24
@@ -143,33 +143,33 @@
                               M24,18v5h-6v-5H24z M11,18h6v5h-6V18z"/>
                            <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-0.4811" y1="14.9003" x2="37.7272" y2="-1.5164">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_3_)" d="M32.5,3h4.25C36.837,3,37,3,37,3.5V8H5V3.5C5,3.224,5.224,3,5.5,3h4C9.776,3,10,2.776,10,2.5
                               S9.776,2,9.5,2h-4C4.673,2,4,2.673,4,3.5v5C4,8.776,4.224,9,4.5,9h33C37.776,9,38,8.776,38,8.5v-5C38,2.394,37.354,2,36.75,2H32.5
                               C32.224,2,32,2.224,32,2.5S32.224,3,32.5,3z"/>
                            <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-1.6311" y1="12.2237" x2="36.5772" y2="-4.1929">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_4_)" d="M26.5,3C26.776,3,27,2.776,27,2.5S26.776,2,26.5,2h-11C15.224,2,15,2.224,15,2.5S15.224,3,15.5,3
                               H26.5z"/>
                            <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-2.9557" y1="9.1407" x2="35.2526" y2="-7.2759">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_5_)" d="M13,4.5v-4C13,0.224,12.776,0,12.5,0S12,0.224,12,0.5v4C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5z"
                               />
                            <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-0.3065" y1="15.3067" x2="37.9019" y2="-1.11">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_6_)" d="M29.5,5C29.776,5,30,4.776,30,4.5v-4C30,0.224,29.776,0,29.5,0S29,0.224,29,0.5v4
                               C29,4.776,29.224,5,29.5,5z"/>
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <span>15 - 21 Aprilie 2019</span>
+                           <span>12 - 18 Aprilie 2021</span>
                         </p>
                      </div>
                   </div>
@@ -179,7 +179,7 @@
                            width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
                            <linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="4.511" y1="11.8158" x2="41.3229" y2="27.6695">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_7_)" d="M10.239,31.926c0.009,0.006,0.021,0.003,0.03,0.009C10.341,31.973,10.418,32,10.499,32
                               c0.044,0,0.088-0.006,0.132-0.018l10.868-2.966l10.868,2.966C32.411,31.994,32.455,32,32.499,32c0.082,0,0.158-0.027,0.23-0.065
@@ -192,7 +192,7 @@
                               c-0.142,0.059-0.249,0.178-0.29,0.326l-4.984,17.5c-0.062,0.216,0.028,0.446,0.22,0.563L10.239,31.926z"/>
                            <linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="12.6241" y1="7.5582" x2="28.5468" y2="14.4156">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_8_)" d="M21.161,23.367c0.096,0.088,0.217,0.132,0.339,0.132c0.12,0,0.24-0.043,0.336-0.129
                               C22.169,23.067,30,15.882,30,8.499c0-4.767-3.733-8.5-8.5-8.5S13,3.732,13,8.499C13,15.753,20.828,23.059,21.161,23.367z
@@ -200,14 +200,14 @@
                               C14,4.223,17.225,0.999,21.5,0.999z"/>
                            <linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="17.3671" y1="6.7191" x2="25.6329" y2="10.2789">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_9_)" d="M26,8.499c0-2.481-2.019-4.5-4.5-4.5S17,6.018,17,8.499s2.019,4.5,4.5,4.5S26,10.98,26,8.499z
                               M21.5,11.999c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S23.43,11.999,21.5,11.999z"/>
                         </svg>
                         <p>
                            <strong>LOCATIE</strong>
-                           <span>Cluj-Napoca</span>
+                           <span>Online</span>
                         </p>
                      </div>
                   </div>
@@ -217,13 +217,13 @@
                            width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
                            <linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="1.9027" y1="28.6566" x2="55.9027" y2="10.9483">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_10_)" d="M40.498,0c-0.276,0-0.5,0.224-0.5,0.5v31c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-31
                               C40.998,0.224,40.774,0,40.498,0z"/>
                            <linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="1.1102" y1="26.2399" x2="55.1102" y2="8.5316">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_10_)" d="M38.717,1.204c-0.17-0.083-0.376-0.062-0.526,0.055l-0.565,0.445C34.648,4.059,29.667,8,19.5,8H5.631
                               C4.18,8,3,9.2,3,10.674v10.714C3,22.828,4.18,24,5.631,24h3.394c0.088,1.125,0.502,3.794,2.454,5.761
@@ -237,7 +237,7 @@
                               c10.237,0,15.392-3.864,18.498-6.316V29.317z"/>
                            <linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-1.8839" y1="17.1097" x2="52.1161" y2="-0.5987">
                               <stop  offset="0" style="stop-color:#399BFF"/>
-                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                              <stop  offset="1" style="stop-color:#53bc81"/>
                            </linearGradient>
                            <path fill="url(#SVGID_11_)" d="M1.5,21.857c0.276,0,0.5-0.224,0.5-0.5V10.643c0-0.276-0.224-0.5-0.5-0.5S1,10.367,1,10.643v10.714
                               C1,21.633,1.224,21.857,1.5,21.857z"/>
@@ -537,7 +537,7 @@
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
-                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi2019@societatea-hermes.ro">ssmi2019@societatea-hermes.ro</a></p>
+                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
                   </div>
                </div>
                <!--End row-->
@@ -604,7 +604,7 @@
                         width="40px" height="30px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
                         <linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="0.9386" y1="24.9189" x2="42.6053" y2="8.5439">
                            <stop  offset="0" style="stop-color:#399BFF"/>
-                           <stop  offset="1" style="stop-color:#EE71F9"/>
+                           <stop  offset="1" style="stop-color:#53bc81"/>
                         </linearGradient>
                         <path fill="url(#SVGID_12_)" d="M39.5,6H32c-1.927,0-1.998-1.797-2-2V3c0-1.258-1.39-3-4-3h-9.969c-2.935,0-4,1.794-4,3v0.994
                            C12.03,4.076,11.983,6,10,6H2.5C1.121,6,0,7.122,0,8.5v18C0,27.878,1.121,29,2.5,29h6C8.776,29,9,28.776,9,28.5S8.776,28,8.5,28h-6
@@ -616,13 +616,13 @@
                            C40.327,7,41,7.673,41,8.5V13H32.75z"/>
                         <linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="-5.5546" y1="8.3968" x2="36.1121" y2="-7.9782">
                            <stop  offset="0" style="stop-color:#399BFF"/>
-                           <stop  offset="1" style="stop-color:#EE71F9"/>
+                           <stop  offset="1" style="stop-color:#53bc81"/>
                         </linearGradient>
                         <path fill="url(#SVGID_13_)" d="M9.5,5C9.776,5,10,4.776,10,4.5v-1C10,2.673,9.327,2,8.5,2h-4C3.673,2,3,2.673,3,3.5v1
                            C3,4.776,3.224,5,3.5,5S4,4.776,4,4.5v-1C4,3.224,4.225,3,4.5,3h4C8.775,3,9,3.224,9,3.5v1C9,4.776,9.224,5,9.5,5z"/>
                         <linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="1.6076" y1="26.6212" x2="43.2743" y2="10.2462">
                            <stop  offset="0" style="stop-color:#399BFF"/>
-                           <stop  offset="1" style="stop-color:#EE71F9"/>
+                           <stop  offset="1" style="stop-color:#53bc81"/>
                         </linearGradient>
                         <path fill="url(#SVGID_15_)" d="M21,10c-4.963,0-9,4.038-9,9s4.037,9,9,9s9-4.038,9-9S25.963,10,21,10z M21,27c-4.411,0-8-3.589-8-8
                            s3.589-8,8-8s8,3.589,8,8S25.411,27,21,27z"/>
@@ -709,7 +709,7 @@
             <section id="contact" class="top-footer pb-100">
                <!--Container-->
                <div class="container ">
-                   <div class="row icons" style="margin-bottom: 100px">
+                   <!--<div class="row icons" style="margin-bottom: 100px">
                        <div class="col-sm-3" >
                            <a href="https://www.telenav.com/" ><img src="img/telenav.png" alt="Telenav"></a>
                        </div>
@@ -722,8 +722,13 @@
                        <div class="col-sm-3">
                            <a href="https://altom.com/" ><img src="img/altom.png" alt="Altom"></a>
                        </div>
-                   </div>
+                   </div>-->
                   <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
+                       <h2 class="sub-title-1">Sponsorii eventimentului vor fi anunțați curând.</h2>
+                    </div>
+                 </div>
+                  <div class="row pt-100">
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
                         <p class="">Societatea Hermes<br />Cantina Hasdeu, Complex Studentesc Hasdeu,
