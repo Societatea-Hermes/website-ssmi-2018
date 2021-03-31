@@ -109,7 +109,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Saptamana Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 15 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
+                     <p class="title-lead mt-20">"Saptamana Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 12 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
                   </div>
                </div>
                <!--End row-->
@@ -169,7 +169,7 @@
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <span>15 - 21 Aprilie 2019</span>
+                           <span>12 - 18 Aprilie 2021</span>
                         </p>
                      </div>
                   </div>
@@ -207,7 +207,7 @@
                         </svg>
                         <p>
                            <strong>LOCATIE</strong>
-                           <span>Cluj-Napoca</span>
+                           <span>Online</span>
                         </p>
                      </div>
                   </div>
@@ -537,7 +537,7 @@
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
-                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi2019@societatea-hermes.ro">ssmi2019@societatea-hermes.ro</a></p>
+                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
                   </div>
                </div>
                <!--End row-->
@@ -709,7 +709,7 @@
             <section id="contact" class="top-footer pb-100">
                <!--Container-->
                <div class="container ">
-                   <div class="row icons" style="margin-bottom: 100px">
+                   <!--<div class="row icons" style="margin-bottom: 100px">
                        <div class="col-sm-3" >
                            <a href="https://www.telenav.com/" ><img src="img/telenav.png" alt="Telenav"></a>
                        </div>
@@ -722,8 +722,13 @@
                        <div class="col-sm-3">
                            <a href="https://altom.com/" ><img src="img/altom.png" alt="Altom"></a>
                        </div>
-                   </div>
+                   </div>-->
                   <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
+                       <h2 class="sub-title-1">Sponsorii eventimentului vor fi anunțați curând.</h2>
+                    </div>
+                 </div>
+                  <div class="row pt-100">
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
                         <p class="">Societatea Hermes<br />Cantina Hasdeu, Complex Studentesc Hasdeu,
