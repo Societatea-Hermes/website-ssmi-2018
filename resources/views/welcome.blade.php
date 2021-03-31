@@ -90,7 +90,7 @@
                   <!--Row-->
                   <div class="row">
                      <div class="col-sm-12 text-center">
-                        <h1 class="title">Ne vedem in</h1>
+                        <h1 class="title">Ne vedem în</h1>
                         <span class="countdown gradient-text"></span>
                      </div>
                   </div>
@@ -109,7 +109,7 @@
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Saptamana Studentilor de la Matematica si Informatica" redefinesc tot ceea ce ai crezut ca inseamna viata de student. <br />Incepand din 12 aprilie dam startul unei serii de evenimente menite sa ofere experiente de neuitat. </p>
+                     <p class="title-lead mt-20">"Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. <br />Incepând din 12 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. </p>
                   </div>
                </div>
                <!--End row-->
@@ -535,7 +535,7 @@
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
-                     <h2 class="sub-title-1">Nu ati gasit raspuns la intrebarea voastra? Scrieti-ne la adresa:</h2>
+                     <h2 class="sub-title-1">Nu ați găsit răspuns la întrebarea voastră? Scrieți-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
                      <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
                   </div>
@@ -731,8 +731,8 @@
                   <div class="row pt-100">
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
-                        <p class="">Societatea Hermes<br />Cantina Hasdeu, Complex Studentesc Hasdeu,
-Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca<br />Email: <a class="gradient-text" target="_blank" href="mailto:contact@societatea-hermes.ro">contact@societatea-hermes.ro</a></p>
+                        <p class="">Societatea Hermes<br />Cantina Hașdeu, Complex Studențesc Hașdeu,
+Strada Bogdan Petriceicu Hașdeu 45, Cluj-Napoca<br />Email: <a class="gradient-text" target="_blank" href="mailto:contact@societatea-hermes.ro">contact@societatea-hermes.ro</a></p>
                         <ul class="block-social mt-20">
                            <li><a href="https://www.facebook.com/SSMIUBB" target="_blank"><i class="icon-facebook"></i></a></li>
                         </ul>
