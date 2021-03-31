@@ -19,7 +19,7 @@ class CreateParticipantsTable extends Migration
             $table->string('phone');
             $table->string('email');
             $table->integer('is_lead')->nullable();
-            $table->integer('team_id');
+            $table->integer('team_id')->unsigned();
             $table->timestamps();
 
             $table->foreign('team_id')->references('id')->on('teams')->onDelete('cascade');
