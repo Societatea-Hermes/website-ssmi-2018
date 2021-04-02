@@ -1,3 +1,62 @@
+<?php
+$currentDT = Carbon\Carbon::now('Europe/Bucharest');
+// $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-17 23:59');
+$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-09 00:00');
+$canSignup = true;
+if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
+    $canSignup = false;
+}
+
+$isDone = true;
+
+$timeline = array(
+
+    'Live event starts' => array(
+        'start_date' => '2020-04-02 20:20',
+        'end_date' => '2020-04-02 21:19',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Coding starts' => array(
+        'start_date' => '2020-11-21 12:30',
+        'end_date' => '2020-11-22 13:30',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'First mentoring session' => array(
+        'start_date' => '2020-11-21 14:00',
+        'end_date' => '2020-11-21 16:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Second mentoring session' => array(
+        'start_date' => '2020-11-21 19:00',
+        'end_date' => '2020-11-21 22:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Last mentoring session' => array(
+        'start_date' => '2020-11-22 09:00',
+        'end_date' => '2020-11-22 11:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Coding stops' => array(
+        'start_date' => '2020-11-22 12:30',
+        'end_date' => '2020-11-22 12:30',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Technical Demo &amp; Final pitch' => array(
+        'start_date' => '2020-11-22 13:00',
+        'end_date' => '2020-11-22 16:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Awards ceremony' => array(
+        'start_date' => '2020-11-22 16:30',
+        'end_date' => '2020-11-22 17:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    )
+);
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" ng-app="ssmi">
    <head>
@@ -17,6 +76,7 @@
       <link href="css/fonts.css" rel="stylesheet" type="text/css"  media="all" />
       <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+
    </head>
    <body ng-controller="CoreController as vm">
       <!-- Preloader -->
@@ -173,6 +233,8 @@
                         </p>
                      </div>
                   </div>
+
+
                   <div class="col-md-4 col-sm-4">
                      <div class="block-info-1">
                         <svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -534,6 +596,66 @@
 {{--               <!--End row-->--}}
                <!--Row-->
                <div class="row">
+
+                   @if($isDone)
+                       <div id="section-timeline" class="page-section nopadding">
+                           <div class="section nomargin nobottompadding dark">
+                               <div class="container clearfix">
+                                   <div class="divcenter center" style="max-width: 900px;">
+                                       <h2 class="nobottommargin t300 ls1">Event timeline</h2>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="common-height nomargin notoppadding section clearfix dark">
+                               <div class="container">
+                                   <div class="row">
+                                       <div class="col-md-12 timeline">
+                                           <section id="cd-timeline" class="cd-container">
+                                               <?php $itemRedShown = 0; ?>
+                                               @foreach($timeline as $key => $val)
+                                                   <?php
+                                                   # $linkExploded = explode(' ', $val['link']);
+                                                   $keyExploded = explode(' ', $val['start_date']);
+                                                   $dateExploded = explode('-', $keyExploded[0]);
+                                                   $dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
+                                                   $dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
+                                                   if($dateTmp->gt($currentDT)) {
+                                                       $class = "cd-movie"; // Urmeaza sa fie..
+                                                       $itemRedShown++;
+                                                   } elseif($dateTmp->lte($currentDT) && $dateTmpEnd->gt($currentDT)) {
+                                                       $class = "cd-location"; // In desfasurare..
+                                                   } else {
+                                                       $class = "cd-picture"; // A fost..
+                                                   }
+
+                                                   $isHidden = false;
+                                                   if($class == "cd-picture") {
+                                                       $isHidden = true;
+                                                   } elseif($class == 'cd-movie' && $itemRedShown > 2) {
+                                                       $isHidden = true;
+                                                   }
+                                                   ?>
+                                                   <div class="cd-timeline-block {{$isHidden ? 'hiddenItem' : ''}}">
+                                                       <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
+                                                       <div class="cd-timeline-content">
+                                                           <h2>{{$key}}</h2>
+                                                           <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Nov)</span>
+                                                           <a href= "  {{$val['link']}}  " > LINK</a>
+                                                       </div> <!-- cd-timeline-content -->
+                                                   </div> <!-- cd-timeline-block -->
+                                               @endforeach
+                                           </section> <!-- cd-timeline -->
+                                       </div>
+                               </div>
+                           </div>
+                       </div>
+                   @endif
+                       <div class="row">
+                           <div class="col-md-12 text-center">
+                               <button id="showTimelineBtn" class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="showFullTimeline();return false;">Show full timeline</button>
+                           </div>
+                       </div>
+
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ați găsit răspuns la întrebarea voastră? Scrieți-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
