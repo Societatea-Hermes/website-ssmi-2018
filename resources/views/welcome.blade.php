@@ -13,8 +13,8 @@ $isDone = true;
 $timeline = array(
 
     'Live event starts' => array(
-        'start_date' => '2020-04-02 20:20',
-        'end_date' => '2020-04-02 21:19',
+        'start_date' => '2021-04-05 12:00',
+        'end_date' => '2021-04-05 19:00',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
     'Coding starts' => array(
@@ -620,18 +620,18 @@ $timeline = array(
                                                    $dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
                                                    $dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
                                                    if($dateTmp->gt($currentDT)) {
-                                                       $class = "cd-movie"; // Urmeaza sa fie..
+                                                       $class = "cd-picture"; // Urmeaza sa fie..
                                                        $itemRedShown++;
                                                    } elseif($dateTmp->lte($currentDT) && $dateTmpEnd->gt($currentDT)) {
                                                        $class = "cd-location"; // In desfasurare..
                                                    } else {
-                                                       $class = "cd-picture"; // A fost..
+                                                       $class = "cd-movie"; // A fost..
                                                    }
 
                                                    $isHidden = false;
-                                                   if($class == "cd-picture") {
+                                                   if($class == "cd-movie") {
                                                        $isHidden = true;
-                                                   } elseif($class == 'cd-movie' && $itemRedShown > 2) {
+                                                   } elseif($class == 'cd-picture' && $itemRedShown > 2) {
                                                        $isHidden = true;
                                                    }
                                                    ?>
