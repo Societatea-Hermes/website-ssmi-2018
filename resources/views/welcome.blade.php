@@ -113,7 +113,7 @@ $timeline = array(
                   <div class="row">
                      <div class="col-md-2">
                         <a class="scroll logo" href="#wrapper">
-                           <h2>SSMI</h2>
+                           <h2 class="nomargin">SSMI</h2>
                         </a>
                      </div>
                      <div class="col-md-10 text-right">
@@ -598,16 +598,16 @@ $timeline = array(
                <div class="row">
 
                    @if($isDone)
-                       <div id="section-timeline" class="page-section nopadding">
-                           <div class="section nomargin nobottompadding dark">
-                               <div class="container clearfix">
+                       <div id="section-timeline" class="page-section nopadding bg-black">
+                           <div class="section nomargin nobottompadding bg-black nopadding">
+                               <div class="container clearfix bg-black nopadding">
                                    <div class="divcenter center" style="max-width: 900px;">
                                        <h2 class="nobottommargin t300 ls1">Event timeline</h2>
                                    </div>
                                </div>
                            </div>
-                           <div class="common-height nomargin notoppadding section clearfix dark">
-                               <div class="container">
+                           <div class="common-height nomargin nopadding section clearfix dark">
+                               <div class="container bg-black noppadding">
                                    <div class="row">
                                        <div class="col-md-12 timeline">
                                            <section id="cd-timeline" class="cd-container">
@@ -637,8 +637,8 @@ $timeline = array(
                                                    ?>
                                                    <div class="cd-timeline-block {{$isHidden ? 'hiddenItem' : ''}}">
                                                        <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
-                                                       <div class="cd-timeline-content">
-                                                           <h2>{{$key}}</h2>
+                                                       <div class="cd-timeline-content text-light">
+                                                           <h2 class="text-light">{{$key}}</h2>
                                                            <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Nov)</span>
                                                            <a href= "  {{$val['link']}}  " > LINK</a>
                                                        </div> <!-- cd-timeline-content -->
