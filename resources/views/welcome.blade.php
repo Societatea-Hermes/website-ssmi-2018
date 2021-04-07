@@ -1,3 +1,82 @@
+<?php
+$currentDT = Carbon\Carbon::now('Europe/Bucharest');
+// $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
+$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-17 23:59');
+$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-09 00:00');
+$canSignup = true;
+if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
+    $canSignup = false;
+}
+
+$isDone = true;
+
+$timeline = array(
+
+    'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
+        'start_date' => '2021-04-12 17:00',
+        'end_date' => '2021-04-12 19:00',
+        'link' => 'null'
+    ),
+    'Speed chatting' => array(
+        'start_date' => '2021-04-12 20:00',
+        'end_date' => '2021-04-12 23:59',
+        'link' => 'null'
+    ),
+    'Nu mai este la modă să rezolvi cubul rubik?, Sebastian Dima, Bodnaruc Mihai' => array(
+        'start_date' => '2021-04-13 17:00',
+        'end_date' => '2021-04-13 19:00',
+        'link' => 'null'
+    ),
+    'Gartic phone' => array(
+        'start_date' => '2021-04-13 20:00',
+        'end_date' => '2021-04-13 23:59',
+        'link' => 'null'
+    ),
+    'Studentul la FMI, prin ochii profesorului - Prof. Univ. Dr. GRAD Anca' => array(
+        'start_date' => '2021-04-14 17:00',
+        'end_date' => '2021-04-14 19:00',
+        'link' => 'null'
+    ),
+    'Card games: Rentz&Cruce' => array(
+        'start_date' => '2021-04-14 20:00',
+        'end_date' => '2021-04-14 23:59',
+        'link' => 'null'
+    ),
+    'Math & Computer Science: To love or not to love? This is the question - Lect. Univ. Dr. MIRCEA Ioan-Gabriel' => array(
+        'start_date' => '2021-04-15 17:00',
+        'end_date' => '2021-04-15 19:00',
+        'link' => 'null'
+    ),
+    'Drinking games' => array(
+        'start_date' => '2021-04-15 20:00',
+        'end_date' => '2021-04-15 23:59',
+        'link' => 'null'
+    ),
+    'Dincolo de pregătirea de specialitate: cum ne poate ajuta o facultate de mate-info să înțelegem lumea?' => array(
+        'start_date' => '2021-04-16 14:00',
+        'end_date' => '2021-04-16 16:00',
+        'link' => 'null'
+    ),
+    'Ce înseamnă să fii student la mate-info? Discuție moderată între echipe ale facultăților de Matematică-Informatică' => array(
+        'start_date' => '2021-04-17 16:00',
+        'end_date' => '2021-04-17 18:00',
+        'link' => 'null'
+    ),
+    'SSMI Quiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
+        'start_date' => '2021-04-18 18:00',
+        'end_date' => '2021-04-18 20:30',
+        'link' => 'null'
+    ),
+    'Festivitatea de închidere și anunțul premiilor' => array(
+        'start_date' => '2021-04-19 20:30',
+        'end_date' => '2020-11-22 21:30',
+        'link' => 'null'
+    )
+);
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" ng-app="ssmi">
    <head>
@@ -17,6 +96,7 @@
       <link href="css/fonts.css" rel="stylesheet" type="text/css"  media="all" />
       <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+
    </head>
    <body ng-controller="CoreController as vm">
       <!-- Preloader -->
@@ -53,7 +133,7 @@
                   <div class="row">
                      <div class="col-md-2">
                         <a class="scroll logo" href="#wrapper">
-                           <h2>SSMI</h2>
+                           <h2 class="nomargin">SSMI</h2>
                         </a>
                      </div>
                      <div class="col-md-10 text-right">
@@ -63,7 +143,7 @@
                                  <div class="lines"></div>
                               </a>
                            </div>
-                           <ul>
+                           <ul class="nomargin">
                               <li><a class="scroll" href="#wrapper">Acasa</a></li>
                               <li><a class="scroll" href="#about">Despre</a></li>
                               <!-- <li><a class="scroll" href="#speakers">Speakers</a></li>
@@ -72,6 +152,7 @@
                               {{--<li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>--}}
                               <!-- <li><a class="scroll" href="#location">Location</a></li> -->
 {{--                              <li><a class="scroll" href="#faq">FAQ</a></li>--}}
+                               <li><a class="scroll" href="#cd-timeline">TimeLine</a></li>
                               <li><a class="scroll" href="#contact">Contact</a></li>
                               <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
                            </ul>
@@ -173,6 +254,8 @@
                         </p>
                      </div>
                   </div>
+
+
                   <div class="col-md-4 col-sm-4">
                      <div class="block-info-1">
                         <svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -534,6 +617,70 @@
 {{--               <!--End row-->--}}
                <!--Row-->
                <div class="row">
+
+                   @if($isDone)
+                       <div id="section-timeline" class="page-section nopadding bg-black">
+                           <div class="section nomargin nobottompadding bg-black nopadding">
+                               <div class="container clearfix bg-black nopadding">
+                                   <div class="divcenter center" style="max-width: 900px;">
+                                       <h2 class="nobottommargin t300 ls1">Event timeline</h2>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="common-height nomargin nopadding section clearfix dark">
+                               <div class="container bg-black noppadding">
+                                   <div class="row">
+                                       <div class="col-md-12 timeline">
+                                           <section id="cd-timeline" class="cd-container">
+                                               <?php $itemRedShown = 0; ?>
+                                               @foreach($timeline as $key => $val)
+                                                   <?php
+                                                   # $linkExploded = explode(' ', $val['link']);
+                                                   $keyExploded = explode(' ', $val['start_date']);
+                                                   $dateExploded = explode('-', $keyExploded[0]);
+                                                   $dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
+                                                   $dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
+                                                   if($dateTmp->gt($currentDT)) {
+                                                       $class = "cd-picture"; // Urmeaza sa fie..
+                                                       $itemRedShown++;
+                                                   } elseif($dateTmp->lte($currentDT) && $dateTmpEnd->gt($currentDT)) {
+                                                       $class = "cd-location"; // In desfasurare..
+                                                   } else {
+                                                       $class = "cd-movie"; // A fost..
+                                                   }
+
+                                                   $isHidden = false;
+                                                   if($class == "cd-movie") {
+                                                       $isHidden = true;
+                                                   } elseif($class == 'cd-picture' && $itemRedShown > 2) {
+                                                       $isHidden = true;
+                                                   }
+                                                   ?>
+                                                   <div class="cd-timeline-block {{$isHidden ? 'hiddenItem' : ''}}">
+                                                       <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
+                                                       <div class="cd-timeline-content text-light">
+                                                           <h2 class="text-light">{{$key}}</h2>
+                                                           <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</span>
+                                                           <?php if($val['link'] == "null" )  {?>
+                                                                <p>Link-ul va fi anunțat curând</p>
+                                                           <?php }else{ ?>
+                                                                <a href= "  {{$val['link']}}  " > LINK</a>
+                                                           <?php }?>
+                                                       </div> <!-- cd-timeline-content -->
+                                                   </div> <!-- cd-timeline-block -->
+                                               @endforeach
+                                           </section> <!-- cd-timeline -->
+                                       </div>
+                               </div>
+                           </div>
+                       </div>
+                   @endif
+                       <div class="row">
+                           <div class="col-md-12 text-center">
+                               <button id="showTimelineBtn" class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="showFullTimeline();return false;">Show full timeline</button>
+                           </div>
+                       </div>
+
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ați găsit răspuns la întrebarea voastră? Scrieți-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
@@ -753,7 +900,7 @@ Strada Bogdan Petriceicu Hașdeu 45, Cluj-Napoca<br />Email: <a class="gradient-
                      </div>
                      <div class="col-md-6 ">
                         <ul class="block-legal">
-                           <li><span><a class="gradient-text scroll" href="#wrapper">Meri sus!</a></span></li>
+                           <li><span><a class="gradient-text scroll" href="#wrapper">Go up!</a></span></li>
                         </ul>
                      </div>
                   </div>

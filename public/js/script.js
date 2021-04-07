@@ -373,6 +373,14 @@ function initializeMap() {
     var transitLayer = new google.maps.TransitLayer();
     transitLayer.setMap(map);
 
+}
 
-
+function showFullTimeline() {
+    if(!$('.hiddenItem').is(':visible')) {
+        $('.hiddenItem').show('slow');
+        $('#showTimelineBtn').html("Hide timeline");
+    } else {
+        $('.hiddenItem').hide('slow');
+        $('#showTimelineBtn').html("Show full timeline");
+    }
 }
