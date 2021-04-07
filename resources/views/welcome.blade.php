@@ -15,62 +15,62 @@ $timeline = array(
     'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
         'start_date' => '2021-04-12 17:00',
         'end_date' => '2021-04-12 19:00',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Speed chatting' => array(
         'start_date' => '2021-04-12 20:00',
         'end_date' => '2021-04-12 23:59',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Nu mai este la modă să rezolvi cubul rubik?, Sebastian Dima, Bodnaruc Mihai' => array(
         'start_date' => '2021-04-13 17:00',
         'end_date' => '2021-04-13 19:00',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Gartic phone' => array(
         'start_date' => '2021-04-13 20:00',
         'end_date' => '2021-04-13 23:59',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Studentul la FMI, prin ochii profesorului - Prof. Univ. Dr. GRAD Anca' => array(
         'start_date' => '2021-04-14 17:00',
         'end_date' => '2021-04-14 19:00',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Card games: Rentz&Cruce' => array(
         'start_date' => '2021-04-14 20:00',
         'end_date' => '2021-04-14 23:59',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Math & Computer Science: To love or not to love? This is the question - Lect. Univ. Dr. MIRCEA Ioan-Gabriel' => array(
         'start_date' => '2021-04-15 17:00',
         'end_date' => '2021-04-15 19:00',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Drinking games' => array(
         'start_date' => '2021-04-15 20:00',
         'end_date' => '2021-04-15 23:59',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Dincolo de pregătirea de specialitate: cum ne poate ajuta o facultate de mate-info să înțelegem lumea?' => array(
         'start_date' => '2021-04-16 14:00',
         'end_date' => '2021-04-16 16:00',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Ce înseamnă să fii student la mate-info? Discuție moderată între echipe ale facultăților de Matematică-Informatică' => array(
         'start_date' => '2021-04-17 16:00',
         'end_date' => '2021-04-17 18:00',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'SSMI Quiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
         'start_date' => '2021-04-18 18:00',
         'end_date' => '2021-04-18 20:30',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     ),
     'Festivitatea de închidere și anunțul premiilor' => array(
         'start_date' => '2021-04-19 20:30',
         'end_date' => '2020-11-22 21:30',
-        'link' => 'https://www.societatea-hermes.ro/'
+        'link' => 'null'
     )
 );
 
@@ -660,8 +660,12 @@ $timeline = array(
                                                        <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
                                                        <div class="cd-timeline-content text-light">
                                                            <h2 class="text-light">{{$key}}</h2>
-                                                           <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Nov)</span>
-                                                           <a href= "  {{$val['link']}}  " > LINK</a>
+                                                           <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</span>
+                                                           <?php if($val['link'] == "null" )  {?>
+                                                                <a>Link-ul va fi anuntat curand</a>
+                                                           <?php }else{ ?>
+                                                                <a href= "  {{$val['link']}}  " > LINK</a>
+                                                           <?php }?>
                                                        </div> <!-- cd-timeline-content -->
                                                    </div> <!-- cd-timeline-block -->
                                                @endforeach
