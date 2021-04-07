@@ -12,44 +12,64 @@ $isDone = true;
 
 $timeline = array(
 
-    'Live event starts' => array(
-        'start_date' => '2021-04-05 12:00',
-        'end_date' => '2021-04-05 19:00',
+    'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
+        'start_date' => '2021-04-12 17:00',
+        'end_date' => '2021-04-12 19:00',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'Coding starts' => array(
-        'start_date' => '2020-11-21 12:30',
-        'end_date' => '2020-11-22 13:30',
+    'Speed chatting' => array(
+        'start_date' => '2021-04-12 20:00',
+        'end_date' => '2021-04-12 23:59',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'First mentoring session' => array(
-        'start_date' => '2020-11-21 14:00',
-        'end_date' => '2020-11-21 16:00',
+    'Nu mai este la modă să rezolvi cubul rubik?, Sebastian Dima, Bodnaruc Mihai' => array(
+        'start_date' => '2021-04-13 17:00',
+        'end_date' => '2021-04-13 19:00',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'Second mentoring session' => array(
-        'start_date' => '2020-11-21 19:00',
-        'end_date' => '2020-11-21 22:00',
+    'Gartic phone' => array(
+        'start_date' => '2021-04-13 20:00',
+        'end_date' => '2021-04-13 23:59',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'Last mentoring session' => array(
-        'start_date' => '2020-11-22 09:00',
-        'end_date' => '2020-11-22 11:00',
+    'Studentul la FMI, prin ochii profesorului - Prof. Univ. Dr. GRAD Anca' => array(
+        'start_date' => '2021-04-14 17:00',
+        'end_date' => '2021-04-14 19:00',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'Coding stops' => array(
-        'start_date' => '2020-11-22 12:30',
-        'end_date' => '2020-11-22 12:30',
+    'Card games: Rentz&Cruce' => array(
+        'start_date' => '2021-04-14 20:00',
+        'end_date' => '2021-04-14 23:59',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'Technical Demo &amp; Final pitch' => array(
-        'start_date' => '2020-11-22 13:00',
-        'end_date' => '2020-11-22 16:00',
+    'Math & Computer Science: To love or not to love? This is the question - Lect. Univ. Dr. MIRCEA Ioan-Gabriel' => array(
+        'start_date' => '2021-04-15 17:00',
+        'end_date' => '2021-04-15 19:00',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'Awards ceremony' => array(
-        'start_date' => '2020-11-22 16:30',
-        'end_date' => '2020-11-22 17:00',
+    'Drinking games' => array(
+        'start_date' => '2021-04-15 20:00',
+        'end_date' => '2021-04-15 23:59',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Dincolo de pregătirea de specialitate: cum ne poate ajuta o facultate de mate-info să înțelegem lumea?' => array(
+        'start_date' => '2021-04-16 14:00',
+        'end_date' => '2021-04-16 16:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Ce înseamnă să fii student la mate-info? Discuție moderată între echipe ale facultăților de Matematică-Informatică' => array(
+        'start_date' => '2021-04-17 16:00',
+        'end_date' => '2021-04-17 18:00',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'SSMIQuiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
+        'start_date' => '2021-04-18 18:00',
+        'end_date' => '2021-04-18 20:30',
+        'link' => 'https://www.societatea-hermes.ro/'
+    ),
+    'Festivitatea de închidere și anunțul premiilor' => array(
+        'start_date' => '2021-04-19 20:30',
+        'end_date' => '2020-11-22 21:30',
         'link' => 'https://www.societatea-hermes.ro/'
     )
 );
