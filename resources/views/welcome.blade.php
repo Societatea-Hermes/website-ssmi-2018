@@ -152,8 +152,8 @@ $timeline = array(
                               {{--<li><a class="scroll" href="#tickets">Hermes Gaming Weekend</a></li>--}}
                               <!-- <li><a class="scroll" href="#location">Location</a></li> -->
 {{--                              <li><a class="scroll" href="#faq">FAQ</a></li>--}}
-                              <li><a class="scroll" href="#contact">Contact</a></li>
                                <li><a class="scroll" href="#cd-timeline">TimeLine</a></li>
+                              <li><a class="scroll" href="#contact">Contact</a></li>
                               <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
                            </ul>
                         </nav>
@@ -662,7 +662,7 @@ $timeline = array(
                                                            <h2 class="text-light">{{$key}}</h2>
                                                            <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</span>
                                                            <?php if($val['link'] == "null" )  {?>
-                                                                <a>Link-ul va fi anuntat curand</a>
+                                                                <p>Link-ul va fi anunțat curând</p>
                                                            <?php }else{ ?>
                                                                 <a href= "  {{$val['link']}}  " > LINK</a>
                                                            <?php }?>
@@ -900,7 +900,7 @@ Strada Bogdan Petriceicu Hașdeu 45, Cluj-Napoca<br />Email: <a class="gradient-
                      </div>
                      <div class="col-md-6 ">
                         <ul class="block-legal">
-                           <li><span><a class="gradient-text scroll" href="#wrapper">Meri sus!</a></span></li>
+                           <li><span><a class="gradient-text scroll" href="#wrapper">Go up!</a></span></li>
                         </ul>
                      </div>
                   </div>
