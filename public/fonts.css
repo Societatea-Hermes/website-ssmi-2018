@@ -152,7 +152,6 @@ dl, dt, dd, ol, ul, li {
 
 body {
     line-height: 1.5;
-    color: #555;
     font-family: 'Lato', sans-serif;
 }
 
@@ -13302,6 +13301,10 @@ img {
         font-size: 16px;
         font-size: 1rem;
     }
+    .cd-date {
+        color: #ffffff !important;
+    }
+
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;
     }

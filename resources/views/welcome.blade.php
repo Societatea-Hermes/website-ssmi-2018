@@ -660,7 +660,7 @@ $timeline = array(
                                                        <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
                                                        <div class="cd-timeline-content text-light">
                                                            <h2 class="text-light">{{$key}}</h2>
-                                                           <span class="cd-date">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</span>
+                                                           <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5>
                                                            <?php if($val['link'] == "null" )  {?>
                                                                 <p>Link-ul va fi anunțat curând</p>
                                                            <?php }else{ ?>
