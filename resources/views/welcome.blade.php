@@ -62,7 +62,7 @@ $timeline = array(
         'end_date' => '2021-04-17 18:00',
         'link' => 'https://www.societatea-hermes.ro/'
     ),
-    'SSMIQuiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
+    'SSMI Quiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
         'start_date' => '2021-04-18 18:00',
         'end_date' => '2021-04-18 20:30',
         'link' => 'https://www.societatea-hermes.ro/'
@@ -143,7 +143,7 @@ $timeline = array(
                                  <div class="lines"></div>
                               </a>
                            </div>
-                           <ul>
+                           <ul class="nomargin">
                               <li><a class="scroll" href="#wrapper">Acasa</a></li>
                               <li><a class="scroll" href="#about">Despre</a></li>
                               <!-- <li><a class="scroll" href="#speakers">Speakers</a></li>
@@ -153,6 +153,7 @@ $timeline = array(
                               <!-- <li><a class="scroll" href="#location">Location</a></li> -->
 {{--                              <li><a class="scroll" href="#faq">FAQ</a></li>--}}
                               <li><a class="scroll" href="#contact">Contact</a></li>
+                               <li><a class="scroll" href="#cd-timeline">TimeLine</a></li>
                               <!-- <li><a class="scroll" href="#gallery">Galerie</a></li> -->
                            </ul>
                         </nav>
