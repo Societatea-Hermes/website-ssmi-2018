@@ -15,62 +15,74 @@ $timeline = array(
     'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
         'start_date' => '2021-04-12 17:00',
         'end_date' => '2021-04-12 19:00',
-        'link' => 'null'
+        'link' => 'null',
+        'register' => 'null'
     ),
     'Speed chatting' => array(
         'start_date' => '2021-04-12 20:00',
         'end_date' => '2021-04-12 23:59',
-        'link' => 'null'
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
+        'register' => 'https://forms.gle/YHTZrChZdW6N6SMA7'
     ),
     'Nu mai este la modă să rezolvi cubul rubik?, Sebastian Dima, Bodnaruc Mihai' => array(
         'start_date' => '2021-04-13 17:00',
         'end_date' => '2021-04-13 19:00',
-        'link' => 'null'
+        'link' => 'null',
+        'register' => 'null'
     ),
     'Gartic phone' => array(
         'start_date' => '2021-04-13 20:00',
         'end_date' => '2021-04-13 23:59',
-        'link' => 'null'
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
+        'register' => 'null'
     ),
     'Studentul la FMI, prin ochii profesorului - Prof. Univ. Dr. GRAD Anca' => array(
         'start_date' => '2021-04-14 17:00',
         'end_date' => '2021-04-14 19:00',
-        'link' => 'null'
+        'link' => 'null',
+        'register' => 'null'
     ),
     'Card games: Rentz&Cruce' => array(
         'start_date' => '2021-04-14 20:00',
         'end_date' => '2021-04-14 23:59',
-        'link' => 'null'
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
+        'register' => 'null'
     ),
     'Math & Computer Science: To love or not to love? This is the question - Lect. Univ. Dr. MIRCEA Ioan-Gabriel' => array(
         'start_date' => '2021-04-15 17:00',
         'end_date' => '2021-04-15 19:00',
-        'link' => 'null'
+        'link' => 'null',
+        'register' => 'null'
     ),
     'Drinking games' => array(
         'start_date' => '2021-04-15 20:00',
         'end_date' => '2021-04-15 23:59',
-        'link' => 'null'
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
+        'register' => 'null'
     ),
     'Dincolo de pregătirea de specialitate: cum ne poate ajuta o facultate de mate-info să înțelegem lumea?' => array(
         'start_date' => '2021-04-16 14:00',
         'end_date' => '2021-04-16 16:00',
-        'link' => 'null'
+        'link' => 'null',
+        'register' => 'null'
     ),
     'Ce înseamnă să fii student la mate-info? Discuție moderată între echipe ale facultăților de Matematică-Informatică' => array(
         'start_date' => '2021-04-17 16:00',
         'end_date' => '2021-04-17 18:00',
-        'link' => 'null'
+        'link' => 'null',
+        'register' => 'null'
     ),
     'SSMI Quiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
         'start_date' => '2021-04-18 18:00',
         'end_date' => '2021-04-18 20:30',
-        'link' => 'null'
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
+        'register' => 'null'
     ),
     'Festivitatea de închidere și anunțul premiilor' => array(
         'start_date' => '2021-04-19 20:30',
         'end_date' => '2020-11-22 21:30',
-        'link' => 'null'
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
+        'register' => 'null'
     )
 );
 
@@ -638,8 +650,8 @@ $timeline = array(
                                                    # $linkExploded = explode(' ', $val['link']);
                                                    $keyExploded = explode(' ', $val['start_date']);
                                                    $dateExploded = explode('-', $keyExploded[0]);
-                                                   $dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date']);
-                                                   $dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date']);
+                                                   $dateTmp = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['start_date'])->subHours(3);
+                                                   $dateTmpEnd = Carbon\Carbon::createFromFormat('Y-m-d H:i', $val['end_date'])->subHours(3);
                                                    if($dateTmp->gt($currentDT)) {
                                                        $class = "cd-picture"; // Urmeaza sa fie..
                                                        $itemRedShown++;
@@ -662,9 +674,16 @@ $timeline = array(
                                                            <h2 class="text-light">{{$key}}</h2>
                                                            <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5>
                                                            <?php if($val['link'] == "null" )  {?>
-                                                                <p>Link-ul va fi anunțat curând</p>
+                                                           <p>Link-ul acvității va fi anunțat curând</p>
                                                            <?php }else{ ?>
-                                                                <a href= "  {{$val['link']}}  " > LINK</a>
+                                                           <p>
+                                                           <a style="color: white" href= "  <?php echo e($val['link']); ?>  " target="_blank" > Link activitate</a>
+                                                           </p>
+                                                           <?php }?>
+                                                           <?php if($val['register'] != 'null') {?>
+                                                           <p>
+                                                               <a style="color: white" href= "  <?php echo e($val['register']); ?>  " target="_blank"> Link inscriere activitate</a>
+                                                           </p>
                                                            <?php }?>
                                                        </div> <!-- cd-timeline-content -->
                                                    </div> <!-- cd-timeline-block -->
