@@ -183,8 +183,8 @@ $timeline = array(
                   <!--Row-->
                   <div class="row">
                      <div class="col-sm-12 text-center">
-                        <h1 class="title">Ne vedem în</h1>
-                        <span class="countdown gradient-text"></span>
+                        <h1 class="title gradient-text">SSMI A început! Aveți programul activităților mai jos.</h1>
+{{--                        <span class="countdown gradient-text"></span>--}}
                      </div>
                   </div>
                   <!--End row-->
