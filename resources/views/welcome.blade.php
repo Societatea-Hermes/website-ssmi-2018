@@ -14,7 +14,7 @@ $timeline = array(
 
     'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
         'start_date' => '2021-04-12 17:00',
-        'end_date' => '2021-04-12 19:00',
+        'end_date' => '2021-04-12 17:10',
         'link' => 'https://www.facebook.com/SSMIUBB/videos/1003898783475562',
         'register' => 'null'
     ),
