@@ -54,7 +54,7 @@ $timeline = array(
         'link' => 'null',
         'register' => 'null'
     ),
-    'Drinking games' => array(
+    'Brawlhalla championship' => array(
         'start_date' => '2021-04-15 20:00',
         'end_date' => '2021-04-15 23:59',
         'link' => 'https://discord.gg/Z9aeHwXzG2',
@@ -64,6 +64,12 @@ $timeline = array(
         'start_date' => '2021-04-16 14:00',
         'end_date' => '2021-04-16 16:00',
         'link' => 'null',
+        'register' => 'null'
+    ),
+    'Drinking games' => array(
+        'start_date' => '2021-04-16 20:00',
+        'end_date' => '2021-04-16 23:59',
+        'link' => 'https://discord.gg/Z9aeHwXzG2',
         'register' => 'null'
     ),
     'Ce înseamnă să fii student la mate-info? Discuție moderată între echipe ale facultăților de Matematică-Informatică' => array(
@@ -79,8 +85,8 @@ $timeline = array(
         'register' => 'null'
     ),
     'Festivitatea de închidere și anunțul premiilor' => array(
-        'start_date' => '2021-04-19 20:30',
-        'end_date' => '2020-11-22 21:30',
+        'start_date' => '2021-04-18 20:30',
+        'end_date' => '2020-11-18 23:59',
         'link' => 'https://discord.gg/Z9aeHwXzG2',
         'register' => 'null'
     )
