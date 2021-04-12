@@ -15,7 +15,7 @@ $timeline = array(
     'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
         'start_date' => '2021-04-12 17:00',
         'end_date' => '2021-04-12 19:00',
-        'link' => 'null',
+        'link' => 'https://www.facebook.com/SSMIUBB/videos/1003898783475562',
         'register' => 'null'
     ),
     'Speed chatting' => array(
@@ -674,7 +674,7 @@ $timeline = array(
                                                            <h2 class="text-light">{{$key}}</h2>
                                                            <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5>
                                                            <?php if($val['link'] == "null" )  {?>
-                                                           <p>Link-ul acvității va fi anunțat curând</p>
+                                                           <p>Link-ul activității va fi anunțat curând</p>
                                                            <?php }else{ ?>
                                                            <p>
                                                            <a style="color: white" href= "  <?php echo e($val['link']); ?>  " target="_blank" > Link activitate</a>
@@ -891,7 +891,7 @@ $timeline = array(
                    </div>-->
                   <div class="row">
                     <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
-                       <h2 class="sub-title-1">Sponsorii eventimentului vor fi anunțați curând.</h2>
+                       <h2 class="sub-title-1">Sponsorii evenimentului vor fi anunțați curând.</h2>
                     </div>
                  </div>
                   <div class="row pt-100">
