@@ -895,11 +895,11 @@ $timeline = array(
                            <a href="https://altom.com/" ><img src="img/altom.png" alt="Altom"></a>
                        </div>
                    </div>-->
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
-                       <h2 class="sub-title-1">Sponsorii evenimentului vor fi anunțați curând.</h2>
-                    </div>
-                 </div>
+{{--                  <div class="row">--}}
+{{--                    <div class="col-sm-8 col-sm-offset-2  text-center mt-50">--}}
+{{--                       <h2 class="sub-title-1">Sponsorii evenimentului vor fi anunțați curând.</h2>--}}
+{{--                    </div>--}}
+{{--                 </div>--}}
                   <div class="row pt-100">
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
