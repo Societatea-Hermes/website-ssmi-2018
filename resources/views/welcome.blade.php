@@ -39,7 +39,7 @@ $timeline = array(
     'Studentul la FMI, prin ochii profesorului - Prof. Univ. Dr. GRAD Anca' => array(
         'start_date' => '2021-04-14 17:00',
         'end_date' => '2021-04-14 19:00',
-        'link' => 'null',
+        'link' => 'https://www.facebook.com/SSMIUBB/videos/797257074230740',
         'register' => 'null'
     ),
     'Card games: Rentz&Cruce' => array(
