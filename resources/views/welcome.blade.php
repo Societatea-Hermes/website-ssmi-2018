@@ -189,7 +189,7 @@ $timeline = array(
                   <!--Row-->
                   <div class="row">
                      <div class="col-sm-12 text-center">
-                        <h1 class="title gradient-text">SSMI A început! Aveți programul activităților mai jos.</h1>
+                         <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
                      </div>
                   </div>
