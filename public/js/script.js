@@ -43,6 +43,18 @@
     });
 
 
+    // timer
+
+    $(function(){
+        initCountDown();
+        // initMap();
+    });
+    
+    function initCountDown() {
+        var newDate = new Date(2022, 0o3, 11, 12); // luna - 1 => aprilie = 3 in loc de 4
+        $('#countdown-ex4').countdown({until: newDate});
+    
+    }
 
     // Mobile menu
 

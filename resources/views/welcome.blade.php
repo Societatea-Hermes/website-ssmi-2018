@@ -3,12 +3,21 @@ $currentDT = Carbon\Carbon::now('Europe/Bucharest');
 // $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
 $maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-17 23:59');
 $minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-09 00:00');
+
+$maxEventTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2022-04-20 23:59');
+$minEventTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2022-04-04 00:00');
+
 $canSignup = true;
+$isDone = true;
+
 if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
     $canSignup = false;
 }
 
-$isDone = true;
+if($currentDT->gte($maxEventTime) || $currentDT->lte($minEventTime)) {
+   $isDone = false;
+}
+
 
 $timeline = array(
 
@@ -188,11 +197,18 @@ $timeline = array(
                <div class="container hero-content">
                   <!--Row-->
                   <div class="row">
-                     <div class="col-sm-12 text-center">
+                     <!-- <div class="col-sm-12 text-center">
                          <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
+                     </div> -->
+                     <div class="col-sm-12 text-center" >
+                           <div style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2);  padding: 15px 0; font-size: 16px;">
+                                 <span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">Începem în </span>
+                                 <i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline" style="margin-top: 7px;"></div>
+                           </div>
                      </div>
-                  </div>
+                  </div> 
+                             
                   <!--End row-->
                </div>
                <!--End container-->
@@ -208,7 +224,7 @@ $timeline = array(
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. <br />Incepând din 12 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. </p>
+                     <p class="title-lead mt-20">"Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. <br />Incepând din 11 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. </p>
                   </div>
                </div>
                <!--End row-->
@@ -268,7 +284,7 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <span>12 - 18 Aprilie 2021</span>
+                           <span>11 - 17 Aprilie 2022</span>
                         </p>
                      </div>
                   </div>
@@ -308,7 +324,7 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>LOCATIE</strong>
-                           <span>Online</span>
+                           <span>Cluj-Napoca</span>
                         </p>
                      </div>
                   </div>
@@ -699,13 +715,24 @@ $timeline = array(
                                </div>
                            </div>
                        </div>
-                   @endif
                        <div class="row">
                            <div class="col-md-12 text-center">
                                <button id="showTimelineBtn" class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="showFullTimeline();return false;">Show full timeline</button>
                            </div>
                        </div>
-
+                   @endif
+                   @if($isDone == false)
+                     <div id="section-timeline" class="page-section nopadding bg-black">
+                           <div class="section nomargin nobottompadding bg-black nopadding">
+                               <div class="container clearfix bg-black nopadding">
+                                   <div class="divcenter center" style="max-width: 900px;">
+                                       <h2 class="nobottommargin t300 ls1">Event timeline TBA</h2>
+                                   </div>
+                               </div>
+                           </div>
+                     </div>                                         
+                   @endif
+                       
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ați găsit răspuns la întrebarea voastră? Scrieți-ne la adresa:</h2>
                      {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
