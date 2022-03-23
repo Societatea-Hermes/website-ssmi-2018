@@ -197,16 +197,16 @@ $timeline = array(
                <div class="container hero-content">
                   <!--Row-->
                   <div class="row">
-                     <!-- <div class="col-sm-12 text-center">
+                     <div class="col-sm-12 text-center">
                          <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
-                     </div> -->
-                     <div class="col-sm-12 text-center" >
+                     </div>
+                     <!-- <div class="col-sm-12 text-center" >
                            <div style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2);  padding: 15px 0; font-size: 16px;">
                                  <span style="font-size: 18px;" class="t300 nott ls1 topmargin-sm">Începem în </span>
                                  <i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline" style="margin-top: 7px;"></div>
                            </div>
-                     </div>
+                     </div> -->
                   </div> 
                              
                   <!--End row-->
