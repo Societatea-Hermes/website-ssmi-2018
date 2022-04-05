@@ -21,84 +21,78 @@ if($currentDT->gte($maxEventTime) || $currentDT->lte($minEventTime)) {
 
 $timeline = array(
 
-    'Festivitatea de deschidere și anunțul înscrierilor la tombolă' => array(
-        'start_date' => '2021-04-12 17:00',
+    'Întâmpinarea invitaților' => array(
+        'start_date' => '2022-04-11 07:30',
         'end_date' => '2021-04-12 17:10',
-        'link' => 'https://www.facebook.com/SSMIUBB/videos/1003898783475562',
+        'locatie' => 'Gara Cluj-Napoca',
         'register' => 'null'
     ),
-    'Speed chatting' => array(
-        'start_date' => '2021-04-12 20:00',
-        'end_date' => '2021-04-12 23:59',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
-        'register' => 'https://forms.gle/YHTZrChZdW6N6SMA7'
-    ),
-    'Nu mai este la modă să rezolvi cubul rubik?, Sebastian Dima, Bodnaruc Mihai' => array(
-        'start_date' => '2021-04-13 17:00',
-        'end_date' => '2021-04-13 19:00',
-        'link' => 'null',
+    'Discover Cluj (Tur al Clujului)' => array(
+        'start_date' => '2022-04-12 14:00',
+        'end_date' => '2022-04-12 16:00',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Gartic phone' => array(
-        'start_date' => '2021-04-13 20:00',
-        'end_date' => '2021-04-13 23:59',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
+    'Workshop' => array(
+        'start_date' => '2022-04-12 18:00',
+        'end_date' => '2022-04-12 20:00',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Studentul la FMI, prin ochii profesorului - Prof. Univ. Dr. GRAD Anca' => array(
-        'start_date' => '2021-04-14 17:00',
-        'end_date' => '2021-04-14 19:00',
-        'link' => 'https://www.facebook.com/SSMIUBB/videos/797257074230740',
+    'Planetariu si Observator' => array(
+        'start_date' => '2022-04-12 22:00',
+        'end_date' => '2022-04-12 23:59',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Card games: Rentz&Cruce' => array(
-        'start_date' => '2021-04-14 20:00',
-        'end_date' => '2021-04-14 23:59',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
+    'Activitate surpriză' => array(
+        'start_date' => '2022-04-13 14:00',
+        'end_date' => '2022-04-14 16:00',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Math & Computer Science: To love or not to love? This is the question - Lect. Univ. Dr. MIRCEA Ioan-Gabriel' => array(
-        'start_date' => '2021-04-15 17:00',
-        'end_date' => '2021-04-15 19:00',
-        'link' => 'null',
+    'Beerpong & Karaoke' => array(
+        'start_date' => '2022-04-13 20:00',
+        'end_date' => '2022-04-13 23:59',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Brawlhalla championship' => array(
-        'start_date' => '2021-04-15 20:00',
-        'end_date' => '2021-04-15 23:59',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
+    'Activități sportive' => array(
+        'start_date' => '2022-04-14 13:00',
+        'end_date' => '2022-04-14 16:00',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Dincolo de pregătirea de specialitate: cum ne poate ajuta o facultate de mate-info să înțelegem lumea?' => array(
-        'start_date' => '2021-04-16 14:00',
-        'end_date' => '2021-04-16 16:00',
-        'link' => 'null',
+    'Atomic party' => array(
+        'start_date' => '2022-04-14 20:00',
+        'end_date' => '2022-04-14 23:59',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Drinking games' => array(
-        'start_date' => '2021-04-16 20:00',
-        'end_date' => '2021-04-16 23:59',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
+    'Ce spun studenții?' => array(
+        'start_date' => '2022-04-15 13:00',
+        'end_date' => '2022-04-15 16:00',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Ce înseamnă să fii student la mate-info? Discuție moderată între echipe ale facultăților de Matematică-Informatică' => array(
-        'start_date' => '2021-04-17 16:00',
-        'end_date' => '2021-04-17 18:00',
-        'link' => 'null',
+    'PubHunt' => array(
+        'start_date' => '2022-04-15 19:00',
+        'end_date' => '2022-04-15 23:59',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'SSMI Quiz, concurs de cultură generală din domeniul mate-info (și nu numai)' => array(
-        'start_date' => '2021-04-18 18:00',
-        'end_date' => '2021-04-18 20:30',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
+    'Picnic, hamace & chitară' => array(
+        'start_date' => '2022-04-16 13:00',
+        'end_date' => '2022-04-16 17:00',
+        'locatie' => 'null',
         'register' => 'null'
     ),
-    'Festivitatea de închidere și anunțul premiilor' => array(
-        'start_date' => '2021-04-18 20:30',
-        'end_date' => '2020-11-18 23:59',
-        'link' => 'https://discord.gg/Z9aeHwXzG2',
+    'Party de final' => array(
+        'start_date' => '2022-04-16 22:00',
+        'end_date' => '2022-04-16 23:59',
+        'locatie' => 'null',
         'register' => 'null'
-    )
+    ),
 );
 
 
@@ -198,7 +192,8 @@ $timeline = array(
                   <!--Row-->
                   <div class="row">
                      <div class="col-sm-12 text-center">
-                         <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1>
+                         <!-- <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1> -->
+                         <h1 class="title gradient-text">Vă așteptăm din 11 aprilie cu workshop-uri, party-uri și multe alte activități!</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
                      </div>
                      <!-- <div class="col-sm-12 text-center" >
@@ -694,12 +689,14 @@ $timeline = array(
                                                        <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
                                                        <div class="cd-timeline-content text-light">
                                                            <h2 class="text-light">{{$key}}</h2>
-                                                           <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5>
-                                                           <?php if($val['link'] == "null" )  {?>
-                                                           <p>Link-ul activității va fi anunțat curând</p>
+                                                           <!-- <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5> -->
+                                                           <!-- <?php #if($val['link'] == "null" )  {?>  -->
+                                                           <?php if($val['locatie'] == "null" )  {?> 
+                                                           <p>Locația activității va fi anunțată curând</p>
                                                            <?php }else{ ?>
                                                            <p>
-                                                           <a style="color: white" href= "  <?php echo e($val['link']); ?>  " target="_blank" > Link activitate</a>
+                                                            <!-- <a style="color: white" href= "  <?php #echo e($val['link']); ?>  " target="_blank" > Link activitate</a> -->
+                                                            <a style="color: white"> <?php echo $val['locatie'] ?> </a>
                                                            </p>
                                                            <?php }?>
                                                            <?php if($val['register'] != 'null') {?>
