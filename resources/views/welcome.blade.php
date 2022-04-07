@@ -36,13 +36,13 @@ $timeline = array(
     'Workshop' => array(
         'start_date' => '2022-04-12 18:00',
         'end_date' => '2022-04-12 20:00',
-        'locatie' => 'null',
+        'locatie' => "Tech'n Trade Club",
         'register' => 'null'
     ),
     'Planetariu si Observator' => array(
         'start_date' => '2022-04-12 22:00',
         'end_date' => '2022-04-12 23:59',
-        'locatie' => 'null',
+        'locatie' => 'Observatorul Astronomic',
         'register' => 'null'
     ),
     'Activitate surpriză' => array(
@@ -58,19 +58,19 @@ $timeline = array(
         'register' => 'null'
     ),
     'Activități sportive' => array(
-        'start_date' => '2022-04-14 13:00',
+        'start_date' => '2022-04-14 14:00',
         'end_date' => '2022-04-14 16:00',
-        'locatie' => 'null',
+        'locatie' => 'Baza Sportivă Gheorgheni',
         'register' => 'null'
     ),
     'Atomic party' => array(
-        'start_date' => '2022-04-14 20:00',
+        'start_date' => '2022-04-14 21:00',
         'end_date' => '2022-04-14 23:59',
-        'locatie' => 'null',
+        'locatie' => 'After Eight',
         'register' => 'null'
     ),
     'Ce spun studenții?' => array(
-        'start_date' => '2022-04-15 13:00',
+        'start_date' => '2022-04-15 14:00',
         'end_date' => '2022-04-15 16:00',
         'locatie' => 'null',
         'register' => 'null'
@@ -81,16 +81,16 @@ $timeline = array(
         'locatie' => 'null',
         'register' => 'null'
     ),
-    'Picnic, hamace & chitară' => array(
-        'start_date' => '2022-04-16 13:00',
+    'Ieșire la Grădina Botanică' => array(
+        'start_date' => '2022-04-16 14:00',
         'end_date' => '2022-04-16 17:00',
-        'locatie' => 'null',
+        'locatie' => 'Grădina Botanică Alexandru Borza',
         'register' => 'null'
     ),
-    'Party de final' => array(
+    'Retro International Party' => array(
         'start_date' => '2022-04-16 22:00',
         'end_date' => '2022-04-16 23:59',
-        'locatie' => 'null',
+        'locatie' => 'Revolution',
         'register' => 'null'
     ),
 );
@@ -689,7 +689,7 @@ $timeline = array(
                                                        <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
                                                        <div class="cd-timeline-content text-light">
                                                            <h2 class="text-light">{{$key}}</h2>
-                                                           <!-- <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5> -->
+                                                           <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5>
                                                            <!-- <?php #if($val['link'] == "null" )  {?>  -->
                                                            <?php if($val['locatie'] == "null" )  {?> 
                                                            <p>Locația activității va fi anunțată curând</p>
