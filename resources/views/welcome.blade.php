@@ -193,7 +193,7 @@ $timeline = array(
                   <div class="row">
                      <div class="col-sm-12 text-center">
                          <!-- <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1> -->
-                         <h1 class="title gradient-text">Vă așteptăm din 11 aprilie cu workshop-uri, party-uri și multe alte activități!</h1>
+                         <h1 class="title gradient-text">Vă așteptăm la următoarea ediție cu multe alte activități!</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
                      </div>
                      <!-- <div class="col-sm-12 text-center" >
@@ -219,7 +219,10 @@ $timeline = array(
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">SSMI</h1>
-                     <p class="title-lead mt-20">"Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. <br />Incepând din 11 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. </p>
+                     <p class="title-lead mt-20">
+                        "Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. 
+                        <!-- <br/>Incepând din 11 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat.  -->
+                     </p>
                   </div>
                </div>
                <!--End row-->
@@ -279,7 +282,8 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <span>11 - 17 Aprilie 2022</span>
+                           <!-- <span>11 - 17 Aprilie 2022</span> -->
+                           <span> TBA </span>
                         </p>
                      </div>
                   </div>
