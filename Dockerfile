@@ -10,6 +10,7 @@ USER root
 RUN composer install --no-scripts
 RUN composer update --no-scripts
 RUN cp .env.example .env
+RUN npm config set registry http://registry.npmjs.org/
 RUN npm install
 RUN php artisan key:generate
 RUN php artisan migrate --force 
