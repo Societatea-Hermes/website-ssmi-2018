@@ -140,7 +140,7 @@ $timeline = array(
                <ul class="slides">
                   <li>
                      <div class="background-img">
-                        <img src="img/site3.jfif" alt="">
+                        <img src="img/site4.jpg" alt="">
                      </div>
                   </li>
                </ul>
@@ -193,7 +193,7 @@ $timeline = array(
                   <div class="row">
                      <div class="col-sm-12 text-center">
                          <!-- <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1> -->
-                         <h1 class="title gradient-text">Vă așteptăm la următoarea ediție cu multe alte activități!</h1>
+                         <h1 class="title gradient-text">Hold on, we're still cooking 🧑‍🍳🍳</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
                      </div>
                      <!-- <div class="col-sm-12 text-center" >
@@ -221,7 +221,7 @@ $timeline = array(
                      <h1 class="title">SSMI</h1>
                      <p class="title-lead mt-20">
                         "Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. 
-                        <!-- <br/>Incepând din 11 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat.  -->
+                        <br/>Incepând din 15 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. 
                      </p>
                   </div>
                </div>
@@ -282,8 +282,8 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <!-- <span>11 - 17 Aprilie 2022</span> -->
-                           <span> TBA </span>
+                           <span>15 - 21 Aprilie 2024</span>
+                           <!-- <span> TBA </span> -->
                         </p>
                      </div>
                   </div>
@@ -727,7 +727,7 @@ $timeline = array(
                            <div class="section nomargin nobottompadding bg-black nopadding">
                                <div class="container clearfix bg-black nopadding">
                                    <div class="divcenter center" style="max-width: 900px;">
-                                       <h2 class="nobottommargin t300 ls1">Event timeline TBA</h2>
+                                       <h2 class="nobottommargin t300 ls1">Event timeline - COMING SOON</h2>
                                    </div>
                                </div>
                            </div>
