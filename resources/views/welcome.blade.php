@@ -1,98 +1,115 @@
 <?php
 $currentDT = Carbon\Carbon::now('Europe/Bucharest');
-// $currentDT = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2016-12-10 11:30');
-$maxSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-17 23:59');
-$minSignupTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2020-11-09 00:00');
+$canSignup = false;
+$isDone = false;
 
-$maxEventTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2022-04-20 23:59');
-$minEventTime = Carbon\Carbon::createFromFormat('Y-m-d H:i', '2022-04-04 00:00');
-
-$canSignup = true;
-$isDone = true;
-
-if($currentDT->gte($maxSignupTime) || $currentDT->lte($minSignupTime)) {
-    $canSignup = false;
-}
-
-if($currentDT->gte($maxEventTime) || $currentDT->lte($minEventTime)) {
-   $isDone = false;
-}
 
 
 $timeline = array(
 
-    'Întâmpinarea invitaților' => array(
-        'start_date' => '2022-04-11 07:30',
-        'end_date' => '2021-04-12 17:10',
-        'locatie' => 'Gara Cluj-Napoca',
-        'register' => 'null'
-    ),
-    'Discover Cluj (Tur al Clujului)' => array(
-        'start_date' => '2022-04-12 14:00',
-        'end_date' => '2022-04-12 16:00',
-        'locatie' => 'null',
-        'register' => 'null'
-    ),
-    'Workshop' => array(
-        'start_date' => '2022-04-12 18:00',
-        'end_date' => '2022-04-12 20:00',
-        'locatie' => "Tech'n Trade Club",
-        'register' => 'null'
-    ),
-    'Planetariu si Observator' => array(
-        'start_date' => '2022-04-12 22:00',
-        'end_date' => '2022-04-12 23:59',
-        'locatie' => 'Observatorul Astronomic',
-        'register' => 'null'
-    ),
-    'Activitate surpriză' => array(
-        'start_date' => '2022-04-13 14:00',
-        'end_date' => '2022-04-14 16:00',
-        'locatie' => 'null',
-        'register' => 'null'
-    ),
-    'Beerpong & Karaoke' => array(
-        'start_date' => '2022-04-13 20:00',
-        'end_date' => '2022-04-13 23:59',
-        'locatie' => 'null',
-        'register' => 'null'
-    ),
-    'Activități sportive' => array(
-        'start_date' => '2022-04-14 14:00',
-        'end_date' => '2022-04-14 16:00',
-        'locatie' => 'Baza Sportivă Gheorgheni',
-        'register' => 'null'
-    ),
-    'Atomic party' => array(
-        'start_date' => '2022-04-14 21:00',
-        'end_date' => '2022-04-14 23:59',
-        'locatie' => 'After Eight',
-        'register' => 'null'
-    ),
-    'Ce spun studenții?' => array(
-        'start_date' => '2022-04-15 14:00',
-        'end_date' => '2022-04-15 16:00',
-        'locatie' => 'null',
-        'register' => 'null'
-    ),
-    'PubHunt' => array(
-        'start_date' => '2022-04-15 19:00',
-        'end_date' => '2022-04-15 23:59',
-        'locatie' => 'null',
-        'register' => 'null'
-    ),
-    'Ieșire la Grădina Botanică' => array(
-        'start_date' => '2022-04-16 14:00',
-        'end_date' => '2022-04-16 17:00',
-        'locatie' => 'Grădina Botanică Alexandru Borza',
-        'register' => 'null'
-    ),
-    'Retro International Party' => array(
-        'start_date' => '2022-04-16 22:00',
-        'end_date' => '2022-04-16 23:59',
-        'locatie' => 'Revolution',
-        'register' => 'null'
-    ),
+   'Deschidere' => array(
+      'start_date' => '2024-04-15 19:00',
+      'end_date' => '2024-04-15 22:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Culture Hunt' => array(
+      'start_date' => '2024-04-16 12:00',
+      'end_date' => '2024-04-16 15:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Chess Championship' => array(
+      'start_date' => '2024-04-16 18:00',
+      'end_date' => '2024-04-16 22:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Board Games' => array(
+      'start_date' => '2024-04-16 18:00',
+      'end_date' => '2024-04-16 22:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'SOS on Board! (workshop de prim-ajutor)' => array(
+      'start_date' => '2024-04-17 12:30',
+      'end_date' => '2024-04-17 14:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Acvititati Sportive' => array(
+      'start_date' => '2024-04-17 15:30',
+      'end_date' => '2024-04-17 19:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Quiz Night' => array(
+      'start_date' => '2024-04-17 21:00',
+      'end_date' => '2024-04-17 23:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'PirateParty' => array(
+      'start_date' => '2024-04-17 23:30',
+      'end_date' => '2024-04-17 05:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Uncovering the Forgotten Garden' => array(
+      'start_date' => '2024-04-18 12:00',
+      'end_date' => '2024-04-18 24:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Capture the Flag' => array(
+      'start_date' => '2024-04-18 16:00',
+      'end_date' => '2024-04-18 19:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Mate-Info are Talent' => array(
+      'start_date' => '2024-04-18 20:00',
+      'end_date' => '2024-04-18 21:30',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Karaoke x Beerpong' => array(
+      'start_date' => '2024-04-18 21:30',
+      'end_date' => '2024-04-18 00:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Build your own treasure' => array(
+      'start_date' => '2024-04-19 12:00',
+      'end_date' => '2024-04-19 14:30',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Activitate surpriza' => array(
+      'start_date' => '2024-04-19 16:30',
+      'end_date' => '2024-04-19 19:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Rum & Parley' => array(
+      'start_date' => '2024-04-19 20:30',
+      'end_date' => '2024-04-19 23:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Hoia Island' => array(
+      'start_date' => '2024-04-20 12:00',
+      'end_date' => '2024-04-20 16:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   ),
+   'Memories of me Hearties' => array(
+      'start_date' => '2024-04-20 17:00',
+      'end_date' => '2024-04-20 19:00',
+      'locatie' => 'null',
+      'register' => 'null'
+   )
+
 );
 
 
@@ -193,7 +210,7 @@ $timeline = array(
                   <div class="row">
                      <div class="col-sm-12 text-center">
                          <!-- <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1> -->
-                         <h1 class="title gradient-text">Hold on, we're still cooking 🧑‍🍳🍳</h1>
+                         <h1 class="title gradient-text">Sign up 👉 <a href="https://forms.gle/e2WjNuLMxsrfMizq7">here</a> 👈</h1>
 {{--                        <span class="countdown gradient-text"></span>--}}
                      </div>
                      <!-- <div class="col-sm-12 text-center" >
@@ -360,7 +377,7 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>EVENIMENTE</strong>
-                           <span>20+ evenimente</span>
+                           <span>17 evenimente</span>
                         </p>
                      </div>
                   </div>
@@ -370,288 +387,8 @@ $timeline = array(
             <!--End container-->
          </section>
          <!--End about section-->
-         {{--
-         <!--Schedule section-->
-         <section id="schedule" class="schedule pt-120 pb-120">
-            <!--Container-->
-            <div class="container">
-               <!--Row-->
-               <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
-                     <h1 class="title">Conference Schedule</h1>
-                     <p class="title-lead mt-10">We are very excited about the program being planned for Events 2017 <br> this summer in Cincinati, Ohio.</p>
-                  </div>
-               </div>
-               <!--End row-->
-            </div>
-            <!--End container-->
-            <!--Container-->
-            <div class="container">
-               <!--Row-->
-               <div class="row">
-                  <div class="col-sm-12">
-                     <h3 class="sub-title-0  mb-25"><span class="gradient-text">Conference Days</span></h3>
-                  </div>
-               </div>
-               <!--End row-->
-            </div>
-            <!--End container-->
-            <!--Container-->
-            <div class="container">
-               <!--Row-->
-               <div class="row">
-                  <div class="col-sm-4 ">
-                     <!--Tabs-->
-                     <ul class="block-tabs">
-                        <li class="active"><i class="et-line-calendar"></i><strong>Day 1</strong>  <span>- 23 july 2017</span></li>
-                        <li class=""><i class="et-line-calendar"></i><strong>Day 2</strong>  <span>- 24 july 2017</span></li>
-                        <li class=""><i class="et-line-calendar"></i><strong>Day 3</strong>  <span>- 25 july 2017</span></li>
-                        <li class=""><i class="et-line-calendar"></i><strong>Day 4</strong>  <span>- 26 july 2017</span></li>
-                     </ul>
-                     <a class="link mt-20 gradient-text scroll" href="#accom">Accommodation</a>
-                  </div>
-                  <div class="col-sm-8 ">
-                     <ul class="block-tab">
-                        <!--Tab-->
-                        <li class="active ">
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Day 1</strong>  <span>- 23 july 2017</span></div>
-                           <div class="block-detail">
-                              <span class="time">08:00 - 10:00</span>
-                              <span class="topic">Conference Opening</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">10:30 - 12:30</span>
-                              <span class="topic">Photography Foundations</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Luca Palermo</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">13:00</span>
-                              <span class="topic">Lunch Time</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">15:00 - 16:30</span>
-                              <span class="topic">Retouching</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Lina Blamberg </a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:00</span>
-                              <span class="topic">Coffee Break</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:30 - 18:00</span>
-                              <span class="topic">Raw Processing</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Emilie Lippelt </a> </span>
-                              </div>
-                           </div>
-                        </li>
-                        <!--Tab-->
-                        <li>
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Day 2</strong>  <span>- 24 july 2017</span></div>
-                           <div class="block-detail">
-                              <span class="time">08:00 - 10:00</span>
-                              <span class="topic">Cameras + Gear</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">10:30 - 12:30</span>
-                              <span class="topic">Night + Low Light</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Luca Palermo</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">13:00</span>
-                              <span class="topic">Lunch Time</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">15:00 - 16:30</span>
-                              <span class="topic">Lighting</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Lina Blamberg </a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:00</span>
-                              <span class="topic">Coffee Break</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">17:30 - 18:00</span>
-                              <span class="topic">Color Correction</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Emilie Lippelt </a> </span>
-                              </div>
-                           </div>
-                        </li>
-                        <!--Tab-->
-                        <li>
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Day 3</strong>  <span>- 25 july 2017</span></div>
-                           <div class="block-detail">
-                              <span class="time">08:00 - 10:00</span>
-                              <span class="topic">HDR</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Adam Blanco</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">10:30 - 12:30</span>
-                              <span class="topic">Masking + Compositing</span>
-                              <div class="block-text">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text ">Luca Palermo</a> </span>
-                              </div>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">13:00</span>
-                              <span class="topic">Lunch Time</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">15:00 - 18:00</span>
-                              <span class="topic">Portraits</span>
-                              <div class="block-text ">
-                                 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigilae, nihil timor populi, nihil concursus velit omnium, nihil hic muntissimus habendi senatus locus, nihil horum ora vultusque moverunt, patere tua consilia non sentis constrictam nihil hic muntissimus.</p>
-                                 <span class="speaker"> <strong >Speaker</strong> : <a href="#" class="gradient-text "> Emilie Lippelt </a> </span>
-                              </div>
-                           </div>
-                        </li>
-                        <!--Tab-->
-                        <li>
-                           <div class="block-date"><i class="et-line-calendar"></i><strong>Day 4</strong>  <span>- 26 july 2017</span></div>
-                           <div class="block-detail">
-                              <span class="time">08:00 - 10:00</span>
-                              <span class="topic">Questions &amp; Answer</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">10:30 - 11:00</span>
-                              <span class="topic">Closing Event</span>
-                           </div>
-                           <div class="block-detail">
-                              <span class="time">15:00 - 17:00</span>
-                              <span class="topic">After Party</span>
-                           </div>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <!--End row-->
-            </div>
-            <!--End container-->
-         </section>
-         <!--End schedule section-->
-         --}}
-         <!--Tickest section-->
-         <section id="faq" class="tickets pt-120 pb-120">
-            <!--Container-->
-            <div class="container">
-               <!--Row-->
-               <div class="row">
-                  {{--<div class="col-sm-8 col-sm-offset-2 mb-130">--}}
-                     {{--<h1 class="title text-center">Hermes Gaming Weekend</h1>--}}
-                     {{--<br /><h1 class="sub-title-2 text-center">REGULAMENTUL GENERAL al concursului il gasiti <a href="https://www.esportscluj.com/fest-ruls">aici</a>!</h1>--}}
-                     {{--<p class="title-lead mt-10">Hermes Gaming Weekend, evenimentul principal din cadrul SSMI Saptamana Studentilor de la Matematica si Informatica reprezinta o competitie destinata studentilor de la mate-info si nu numai.--}}
-                    {{--<br /><br />Participand la acest eveniment aveti ocazia de a va intrece in cele mai populare jocuri ale momentului cu alti jucatori care va imparasesc pasiunea pentru e-sports si chiar sa castigati premiile puse in joc.<br /><br />In cadrul evenimentului vor avea loc 3 concursuri, CounterStrike Global Offensive, Hearthstone, League of Legends, fiecare destinat unui anumit tip de gamer.<br /><br />Fie ca vrei sa iti etalezi reflexele, strategia sau colaborarea cu membrii echipei, acesta este locul unde trebuie sa fii in weekend-ul 12-13 mai!<br /><br />Calificarile pentru Hermes Gaming Weekend se vor juca online, urmand ca sfeturile de finala, semifinalele si finalele sa se joace la locatie!</p><br /><p>Cei care se inscriu la League of Legends trebuie sa se inscrie si <a class="gradient-text" target="_blank"  href="http://events.eune.leagueoflegends.com/en/events/319235">aici</a></p><h1 class="sub-title-2 text-center">INSCRIERILE SE INCHID IN DATA DE 07 MAI !</h2>--}}
-                  {{--</div>--}}
-               </div>
-               <!--End row-->
-            </div>
-            <!--End container-->
-            <!--Container-->
-            <div class="container">
-               <!--Row-->
-               {{--<div class="row vertical-align tickets">--}}
-                  {{--<div class="col-sm-12 ">--}}
-                     {{--<div class="col-sm-4">--}}
-                        {{--<ul class="block-tickets">--}}
-                           {{--<li>--}}
-                              {{--<ul class="block-ticket ">--}}
-                                 {{--<h1 class="sub-title-2">Counter Strike : Global Offensive</h1><br />--}}
-                                 {{--<!-- <li class="block-price"><span class="block-type">Counter Strike : Global Offensive</span></li> -->--}}
-                                 {{--<li>5 - 6 Membrii / echipa</li>--}}
-                                 {{--<li>Preliminarii online</li>--}}
-                                 {{--<li>Sferturi, semifinale si finala la locatie</li>--}}
-                                 {{--<!--<li><a class="but mt-30" ng-click="vm.showModal(1)"> Inscrie-ti echipa</a></li>-->--}}
-                              {{--</ul>--}}
-                           {{--</li>--}}
-                        {{--</ul>--}}
-                     {{--</div>--}}
-                     {{--<div class="col-sm-4">--}}
-                        {{--<ul class="block-tickets">--}}
-                           {{--<li>--}}
-                              {{--<ul class="block-ticket ">--}}
-                                 {{--<h1 class="sub-title-2">League of Legends</h1><br />--}}
-                                 {{--<!-- <li class="block-price"><span class="block-type">League of Legends</span></li> -->--}}
-                                 {{--<li>5 - 6 Membrii / echipa</li>--}}
-                                 {{--<li>Preliminarii online</li>--}}
-                                 {{--<li>Sferturi, semifinale si finale la locatie</li>--}}
-                                 {{--<!-- <li><a class="but mt-30" ng-click="vm.showModal(2)"> Inscrie-ti echipa</a></li> -->--}}
-                              {{--</ul>--}}
-                           {{--</li>--}}
-                        {{--</ul>--}}
-                     {{--</div>--}}
-                     {{--<div class="col-sm-4">--}}
-                        {{--<ul class="block-tickets">--}}
-                           {{--<li>--}}
-                              {{--<ul class="block-ticket ">--}}
-                                 {{--<h1 class="sub-title-2">Hearthstone</h1><br />--}}
-                                 {{--<!-- <li class="block-price"><span class="block-type">Hearthstone</span></li> -->--}}
-                                 {{--<li>Toate jocurile se desfasoara la locatie</li>--}}
-                                 {{--<li>Doar deck-urile standard sunt permise</li>--}}
-                                 {{--<li>&nbsp;</li>--}}
-                                 {{--<!--<li><a class="but mt-30" ng-click="vm.showModal(3)"> Inscrie-te</a></li>-->--}}
-                              {{--</ul>--}}
-                           {{--</li>--}}
-                        {{--</ul>--}}
-                     {{--</div>--}}
-                  {{--</div>--}}
-               {{--</div>--}}
-               <!--End row-->
-{{--                <div class="row">--}}
-{{--                  <div class="col-sm-8 col-sm-offset-2 text-center ">--}}
-{{--                     <h1 class="title">Intrebari frecvente</h1>--}}
-{{--                     <p class="title-lead mt-10 mb-20">Cateva intrebari frecvente in legatura cu HGW.</p>--}}
-{{--                  </div>--}}
-{{--               </div>--}}
-{{--               <!--End row-->--}}
-{{--               <!--Row-->--}}
-{{--               <div class="row">--}}
-{{--                  <div class="col-sm-8 col-sm-offset-2  ">--}}
-{{--                     <div class="block-faq mb-50">--}}
-{{--                        <h4 class="mb-10">Care este locatia evenimentului ?</h4>--}}
-{{--                        <p>Hermes Gaming Weekend va avea loc la Cantina Studenteasca Hasdeu, Strada Bogdan Petriceicu Hasdeu 45, Cluj-Napoca, in salile C4, C5 si H2(<a class="gradient-text" href="https://goo.gl/maps/WuszQoViwxK2" target="_blank">Google maps</a>)</p>--}}
-{{--                     </div>--}}
-{{--                     --}}{{--<div class="block-faq mb-50">--}}
-{{--                        --}}{{--<h4 class="mb-10">Cum se vor juca meciurile ?</h4>--}}
-{{--                        --}}{{--<p>Preliminariile si sferturile se vor juca in sistem Bo1, iar semifinala si finala se vor juca in sistem Bo3</p>--}}
-{{--                     --}}{{--</div>--}}
-{{--                     <!-- <div class="block-faq mb-50">--}}
-{{--                        <h4 class="mb-10">qq ?</h4>--}}
-{{--                        <p>Ansuer</p>--}}
-{{--                     </div> -->--}}
-{{--                  </div>--}}
-{{--               </div>--}}
-{{--               <!--End row-->--}}
-               <!--Row-->
-               <div class="row">
 
-                   @if($isDone)
+               <div class="row">
                        <div id="section-timeline" class="page-section nopadding bg-black">
                            <div class="section nomargin nobottompadding bg-black nopadding">
                                <div class="container clearfix bg-black nopadding">
@@ -721,8 +458,7 @@ $timeline = array(
                                <button id="showTimelineBtn" class="button button-border button-circle button-light topmargin-sm" type="submit" onclick="showFullTimeline();return false;">Show full timeline</button>
                            </div>
                        </div>
-                   @endif
-                   @if($isDone == false)
+                   <!-- 
                      <div id="section-timeline" class="page-section nopadding bg-black">
                            <div class="section nomargin nobottompadding bg-black nopadding">
                                <div class="container clearfix bg-black nopadding">
@@ -732,11 +468,10 @@ $timeline = array(
                                </div>
                            </div>
                      </div>                                         
-                   @endif
+ -->
                        
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ați găsit răspuns la întrebarea voastră? Scrieți-ne la adresa:</h2>
-                     {{--<p><a class="gradient-text" target="_blank" href="mailto:hgw@societatea-hermes.ro">hgw@societatea-hermes.ro</a></p>--}}
                      <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
                   </div>
                </div>
