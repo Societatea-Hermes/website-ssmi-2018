@@ -1,5 +1,4 @@
-FROM bitnami/laravel:9.5.2
-
+FROM bitnami/laravel:10.3.3
 WORKDIR /web
 
 COPY . /web

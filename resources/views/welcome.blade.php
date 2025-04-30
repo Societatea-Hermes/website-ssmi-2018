@@ -416,7 +416,7 @@ $timeline = array(
                                                        <div class="cd-timeline-img {{$class}}"></div> <!-- cd-timeline-img -->
                                                        <div class="cd-timeline-content text-light">
                                                            <h2 class="text-light">{{$key}}</h2>
-                                                           <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Apr)</h5>
+                                                           <h5 class="cd-date text-white">{{$keyExploded[1]}} ({{$dateExploded[2]}} Mai)</h5>
                                                            <!-- <?php #if($val['link'] == "null" )  {?>  -->
                                                            <?php if($val['locatie'] == "null" )  {?> 
                                                            <p>Locația activității va fi anunțată curând</p>
