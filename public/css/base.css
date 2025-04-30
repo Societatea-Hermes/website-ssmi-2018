@@ -320,6 +320,15 @@ blockquote {
     color: #399bff;
 }
 
+.gradient-pink-purple {
+    background: -webkit-linear-gradient(left, #ffb6ea 0%, #8475ff 65%, #6352f7 100%);
+    background: -moz-linear-gradient(left, #ffb6ea 0%, #8475ff 65%, #6352f7 100%);
+    background: linear-gradient(to right, #ffb6ea 0%, #8475ff 65%, #6352f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffb6ea; /* Fallback color if gradient is not supported */
+}
+
 p.title-lead {
     font-size: 15px;
 }

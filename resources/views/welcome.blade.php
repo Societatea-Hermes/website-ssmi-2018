@@ -8,107 +8,89 @@ $isDone = false;
 $timeline = array(
 
    'Deschidere' => array(
-      'start_date' => '2024-04-15 19:00',
-      'end_date' => '2024-04-15 22:00',
-      'locatie' => 'null',
+      'start_date' => '2025-05-5 19:00',
+      'end_date' => '2025-05-5 22:00',
+      'locatie' => 'Cantina Hasdeu',
       'register' => 'null'
    ),
-   'Culture Hunt' => array(
-      'start_date' => '2024-04-16 12:00',
-      'end_date' => '2024-04-16 15:00',
-      'locatie' => 'null',
+   'Lock Hunt' => array(
+      'start_date' => '2025-05-6 14:00',
+      'end_date' => '2025-05-6 17:00',
+      'locatie' => 'Cluj-Napoca',
       'register' => 'null'
    ),
-   'Chess Championship' => array(
-      'start_date' => '2024-04-16 18:00',
-      'end_date' => '2024-04-16 22:00',
-      'locatie' => 'null',
+   'FMI are Talent + Karaoke & Beerpong' => array(
+      'start_date' => '2025-05-6 20:00',
+      'end_date' => '2025-05-6 00:00',
+      'locatie' => 'Living Pub',
       'register' => 'null'
    ),
-   'Board Games' => array(
-      'start_date' => '2024-04-16 18:00',
-      'end_date' => '2024-04-16 22:00',
-      'locatie' => 'null',
+   'Workshop' => array(
+      'start_date' => '2025-05-7 10:00',
+      'end_date' => '2025-05-7 11:30',
+      'locatie' => 'CCS Sala 32',
       'register' => 'null'
    ),
-   'SOS on Board! (workshop de prim-ajutor)' => array(
-      'start_date' => '2024-04-17 12:30',
-      'end_date' => '2024-04-17 14:00',
-      'locatie' => 'null',
-      'register' => 'null'
-   ),
-   'Acvititati Sportive' => array(
-      'start_date' => '2024-04-17 15:30',
-      'end_date' => '2024-04-17 19:00',
-      'locatie' => 'null',
+   'Activitati Sportive' => array(
+      'start_date' => '2025-05-7 13:30',
+      'end_date' => '2025-05-7 16:00',
+      'locatie' => 'Baza Sportiva Gheorgheni',
       'register' => 'null'
    ),
    'Quiz Night' => array(
-      'start_date' => '2024-04-17 21:00',
-      'end_date' => '2024-04-17 23:00',
-      'locatie' => 'null',
+      'start_date' => '2025-05-7 18:00',
+      'end_date' => '2025-05-7 20:00',
+      'locatie' => 'Zbor Hub',
       'register' => 'null'
    ),
-   'PirateParty' => array(
-      'start_date' => '2024-04-17 23:30',
-      'end_date' => '2024-04-17 05:00',
-      'locatie' => 'null',
-      'register' => 'null'
-   ),
-   'Uncovering the Forgotten Garden' => array(
-      'start_date' => '2024-04-18 12:00',
-      'end_date' => '2024-04-18 24:00',
-      'locatie' => 'null',
+   'Seara Desene Animate' => array(
+      'start_date' => '2025-05-7 20:00',
+      'end_date' => '2025-05-7 22:00',
+      'locatie' => 'Zbor Hub',
       'register' => 'null'
    ),
    'Capture the Flag' => array(
-      'start_date' => '2024-04-18 16:00',
-      'end_date' => '2024-04-18 19:00',
+      'start_date' => '2025-05-8 11:00',
+      'end_date' => '2025-05-8 13:30',
+      'locatie' => 'Cluj',
+      'register' => 'null'
+   ),
+   'Jocuri Competitive' => array(
+      'start_date' => '2025-05-8 16:00',
+      'end_date' => '2025-05-8 18:00',
       'locatie' => 'null',
       'register' => 'null'
    ),
-   'Mate-Info are Talent' => array(
-      'start_date' => '2024-04-18 20:00',
-      'end_date' => '2024-04-18 21:30',
+   'Seara Sociala' => array(
+      'start_date' => '2025-05-8 20:30',
+      'end_date' => '2025-05-8 22:00',
       'locatie' => 'null',
       'register' => 'null'
    ),
-   'Karaoke x Beerpong' => array(
-      'start_date' => '2024-04-18 21:30',
-      'end_date' => '2024-04-18 00:00',
+   'Party' => array(
+      'start_date' => '2025-05-8 23:00',
+      'end_date' => '2025-05-9 3:00',
+      'locatie' => 'After Eight',
+      'register' => 'https://m.iabilet.ro/bilete-cluj-napoca-y2k-party-ssmi-111135/'
+   ),
+   'Boardgames' => array(
+      'start_date' => '2025-05-9 19:00',
+      'end_date' => '2025-05-9 22:00',
       'locatie' => 'null',
       'register' => 'null'
    ),
-   'Build your own treasure' => array(
-      'start_date' => '2024-04-19 12:00',
-      'end_date' => '2024-04-19 14:30',
+   'Aventura Hoia Baciu' => array(
+      'start_date' => '2025-05-10 14:00',
+      'end_date' => '2025-05-10 19:00',
+      'locatie' => 'Padurea Hoia Baciu',
+      'register' => 'null'
+   ),
+   'Incheiere' => array(
+      'start_date' => '2025-05-10 20:30',
+      'end_date' => '2025-05-10 22:00',
       'locatie' => 'null',
       'register' => 'null'
    ),
-   'Activitate surpriza' => array(
-      'start_date' => '2024-04-19 16:30',
-      'end_date' => '2024-04-19 19:00',
-      'locatie' => 'null',
-      'register' => 'null'
-   ),
-   'Rum & Parley' => array(
-      'start_date' => '2024-04-19 20:30',
-      'end_date' => '2024-04-19 23:00',
-      'locatie' => 'null',
-      'register' => 'null'
-   ),
-   'Hoia Island' => array(
-      'start_date' => '2024-04-20 12:00',
-      'end_date' => '2024-04-20 16:00',
-      'locatie' => 'null',
-      'register' => 'null'
-   ),
-   'Memories of me Hearties' => array(
-      'start_date' => '2024-04-20 17:00',
-      'end_date' => '2024-04-20 19:00',
-      'locatie' => 'null',
-      'register' => 'null'
-   )
 
 );
 
@@ -157,7 +139,7 @@ $timeline = array(
                <ul class="slides">
                   <li>
                      <div class="background-img">
-                        <img src="img/site4.jpg" alt="">
+                        <img src="img/ssmi-2025.jpg" alt="">
                      </div>
                   </li>
                </ul>
@@ -209,9 +191,9 @@ $timeline = array(
                   <!--Row-->
                   <div class="row">
                      <div class="col-sm-12 text-center">
-                         <!-- <h1 class="title gradient-text">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1> -->
-                         <h1 class="title gradient-text">Sign up 👉 <a href="https://forms.gle/e2WjNuLMxsrfMizq7">here</a> 👈</h1>
-{{--                        <span class="countdown gradient-text"></span>--}}
+                         <!-- <h1 class="title gradient-pink-purple">SSMI A luat sfârșit. Ne revedem peste un an cu o nouă ediție.</h1> -->
+                         <h1 class="title gradient-pink-purple">Sign up 👉 <a href="https://forms.gle/zMQ6mN1ktVig6DcE9">here</a> 👈</h1>
+{{--                        <span class="countdown gradient-pink-purple"></span>--}}
                      </div>
                      <!-- <div class="col-sm-12 text-center" >
                            <div style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2);  padding: 15px 0; font-size: 16px;">
@@ -219,6 +201,10 @@ $timeline = array(
                                  <i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline" style="margin-top: 7px;"></div>
                            </div>
                      </div> -->
+                     <div class="col-sm-12 text-center">
+                         <h1 class="title gradient-pink-purple">Party tickets 👉 <a href="https://m.iabilet.ro/bilete-cluj-napoca-y2k-party-ssmi-111135/">here</a> 👈</h1>
+{{--                        <span class="countdown gradient-pink-purple"></span>--}}
+                     </div>
                   </div> 
                              
                   <!--End row-->
@@ -238,7 +224,7 @@ $timeline = array(
                      <h1 class="title">SSMI</h1>
                      <p class="title-lead mt-20">
                         "Săptămâna Studenților de la Matematică și Informatică" redefinește tot ceea ce ai crezut că inseamnă viața de student. 
-                        <br/>Incepând din 15 Aprilie dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. 
+                        <br/>Incepând din 5 Mai dăm startul unei serii de evenimente menite să ofere experiențe de neuitat. 
                      </p>
                   </div>
                </div>
@@ -299,7 +285,7 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>DATA</strong>
-                           <span>15 - 21 Aprilie 2024</span>
+                           <span>5 - 11 Mai 2025</span>
                            <!-- <span> TBA </span> -->
                         </p>
                      </div>
@@ -377,7 +363,7 @@ $timeline = array(
                         </svg>
                         <p>
                            <strong>EVENIMENTE</strong>
-                           <span>17 evenimente</span>
+                           <span>15 evenimente</span>
                         </p>
                      </div>
                   </div>
@@ -472,7 +458,7 @@ $timeline = array(
                        
                   <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
                      <h2 class="sub-title-1">Nu ați găsit răspuns la întrebarea voastră? Scrieți-ne la adresa:</h2>
-                     <p><a class="gradient-text" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
+                     <p><a class="gradient-pink-purple" target="_blank" href="mailto:ssmi@societatea-hermes.ro">ssmi@societatea-hermes.ro</a></p>
                   </div>
                </div>
                <!--End row-->
@@ -482,7 +468,7 @@ $timeline = array(
          <!--End tickets section-->
 
 
-         {{-- <!--Sponsor section-->
+         <!--Sponsor section-->
          <section class="sponser pt-100 pb-100">
             <!--Container-->
             <div class="container">
@@ -502,22 +488,17 @@ $timeline = array(
                   <div class="col-sm-12  col-sm-push-2 text-center">
                      <div class="col-md-3 col-sm-3 ">
                         <div class="">
-                           <img src="img/logo/accenture.png" alt="">
+                           <img src="img/logo/brd.png" alt="">
                         </div>
                      </div>
                      <div class="col-md-3 col-sm-3">
                         <div class="">
-                           <img src="img/logo/accesa.png" alt="">
+                           <img src="img/logo/iabilet.png" alt="">
                         </div>
                      </div>
-                     <div class="col-md-3 col-sm-3">
+                     <!-- <div class="col-md-3 col-sm-3">
                         <div class="">
                            <img src="img/logo/yonder.png" alt="">
-                        </div>
-                     </div>
-                     <!-- <div class="col-md-2 col-sm-2">
-                        <div class="">
-                           <img src="img/logo/2.png" alt="">
                         </div>
                      </div> -->
                   </div>
@@ -526,7 +507,7 @@ $timeline = array(
             </div>
             <!--End container-->
          </section>
-         <!--End sponser section--> --}}
+         <!--End sponser section-->
 
          {{-- <!--Gallery section-->
          <section id="gallery" class="gallery pt-120">
@@ -667,7 +648,7 @@ $timeline = array(
                      <div class="col-sm-12 text-center">
                         <h2 class="sub-title-3 mb-30">Contact</h2>
                         <p class="">Societatea Hermes<br />Cantina Hașdeu, Complex Studențesc Hașdeu,
-Strada Bogdan Petriceicu Hașdeu 45, Cluj-Napoca<br />Email: <a class="gradient-text" target="_blank" href="mailto:contact@societatea-hermes.ro">contact@societatea-hermes.ro</a></p>
+Strada Bogdan Petriceicu Hașdeu 45, Cluj-Napoca<br />Email: <a class="gradient-pink-purple" target="_blank" href="mailto:contact@societatea-hermes.ro">contact@societatea-hermes.ro</a></p>
                         <ul class="block-social mt-20">
                            <li><a href="https://www.facebook.com/SSMIUBB" target="_blank"><i class="icon-facebook"></i></a></li>
                         </ul>
@@ -688,7 +669,7 @@ Strada Bogdan Petriceicu Hașdeu 45, Cluj-Napoca<br />Email: <a class="gradient-
                      </div>
                      <div class="col-md-6 ">
                         <ul class="block-legal">
-                           <li><span><a class="gradient-text scroll" href="#wrapper">Go up!</a></span></li>
+                           <li><span><a class="gradient-pink-purple scroll" href="#wrapper">Go up!</a></span></li>
                         </ul>
                      </div>
                   </div>
